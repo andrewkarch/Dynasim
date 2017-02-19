@@ -1,0 +1,13 @@
+C:\Users\Andrew\Desktop\systemdynamicsproj_dynasim\trunk\DynaSim\bin\Debug\DynaSim.exe.config
+C:\Users\Andrew\Desktop\systemdynamicsproj_dynasim\trunk\DynaSim\bin\Debug\Properties\AssemblyInfo.cs
+C:\Users\Andrew\Desktop\systemdynamicsproj_dynasim\trunk\DynaSim\bin\Debug\DynaSim.XML
+C:\Users\Andrew\Desktop\systemdynamicsproj_dynasim\trunk\DynaSim\bin\Debug\DynaSim.exe
+C:\Users\Andrew\Desktop\systemdynamicsproj_dynasim\trunk\DynaSim\bin\Debug\DynaSim.pdb
+C:\Users\Andrew\Desktop\systemdynamicsproj_dynasim\trunk\DynaSim\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Andrew\Desktop\systemdynamicsproj_dynasim\trunk\DynaSim\obj\x86\Debug\DynaSim.Form1.resources
+C:\Users\Andrew\Desktop\systemdynamicsproj_dynasim\trunk\DynaSim\obj\x86\Debug\DynaSim.Properties.Resources.resources
+C:\Users\Andrew\Desktop\systemdynamicsproj_dynasim\trunk\DynaSim\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\Andrew\Desktop\systemdynamicsproj_dynasim\trunk\DynaSim\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\Andrew\Desktop\systemdynamicsproj_dynasim\trunk\DynaSim\obj\x86\Debug\DynaSim.exe
+C:\Users\Andrew\Desktop\systemdynamicsproj_dynasim\trunk\DynaSim\obj\x86\Debug\DynaSim.pdb
+C:\Users\Andrew\Desktop\systemdynamicsproj_dynasim\trunk\DynaSim\bin\Debug\info.lundin.Math.dll

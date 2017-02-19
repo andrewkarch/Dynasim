@@ -1,0 +1,9 @@
+C:\Users\Andrew\Desktop\systemdynamicsproj_dynasim\trunk\DynaSimControlLibrary\bin\Debug\DynaSimControlLibrary.dll
+C:\Users\Andrew\Desktop\systemdynamicsproj_dynasim\trunk\DynaSimControlLibrary\bin\Debug\DynaSimControlLibrary.pdb
+C:\Users\Andrew\Desktop\systemdynamicsproj_dynasim\trunk\DynaSimControlLibrary\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Andrew\Desktop\systemdynamicsproj_dynasim\trunk\DynaSimControlLibrary\obj\Debug\DynaSimControlLibrary.GraphControl.resources
+C:\Users\Andrew\Desktop\systemdynamicsproj_dynasim\trunk\DynaSimControlLibrary\obj\Debug\GenerateResource.read.1.tlog
+C:\Users\Andrew\Desktop\systemdynamicsproj_dynasim\trunk\DynaSimControlLibrary\obj\Debug\GenerateResource.write.1.tlog
+C:\Users\Andrew\Desktop\systemdynamicsproj_dynasim\trunk\DynaSimControlLibrary\obj\Debug\DynaSimControlLibrary.dll
+C:\Users\Andrew\Desktop\systemdynamicsproj_dynasim\trunk\DynaSimControlLibrary\obj\Debug\DynaSimControlLibrary.pdb
+C:\Users\Andrew\Desktop\systemdynamicsproj_dynasim\trunk\DynaSimControlLibrary\bin\Debug\DynaSimControlLibrary.XML

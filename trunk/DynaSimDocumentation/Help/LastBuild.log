@@ -1,0 +1,831 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shfbBuild product="Sandcastle Help File Builder" version="1.9.5.0" projectFile="C:\Users\Owner\Documents\Visual Studio 2010\Projects\DynaSim\trunk\DynaSimDocumentation\DynaSimDocumentation.shfbproj" started="12/8/2012 12:18:49 PM">
+<buildStep step="Initializing">
+</buildStep>
+<buildStep step="FindingTools">
+Finding tools...
+Found Sandcastle tools in &#39;C:\Program Files (x86)\Sandcastle\&#39;
+Searching for HTML Help 1 compiler...
+Found HTML Help 1 compiler in &#39;C:\Program Files (x86)\HTML Help Workshop\&#39;
+</buildStep>
+<buildStep step="ValidatingDocumentationSources">
+Validating and copying documentation source information
+Source: C:\Users\Owner\Documents\Visual Studio 2010\Projects\DynaSim\trunk\DynaSim\bin\Debug\DynaSim.XML
+Source: C:\Users\Owner\Documents\Visual Studio 2010\Projects\DynaSim\trunk\DynaSim\bin\Debug\DynaSim.exe
+    Found assembly &#39;C:\Users\Owner\Documents\Visual Studio 2010\Projects\DynaSim\trunk\DynaSim\bin\Debug\DynaSim.exe&#39;
+Source: C:\Users\Owner\Documents\Visual Studio 2010\Projects\DynaSim\trunk\DynaSim\DynaSim.csproj
+    Found project &#39;C:\Users\Owner\Documents\Visual Studio 2010\Projects\DynaSim\trunk\DynaSim\DynaSim.csproj&#39;
+Source: C:\Users\Owner\Documents\Visual Studio 2010\Projects\DynaSim\trunk\DynaSimControlLibrary\bin\Debug\DynaSimControlLibrary.XML
+Source: C:\Users\Owner\Documents\Visual Studio 2010\Projects\DynaSim\trunk\DynaSimControlLibrary\bin\Debug\DynaSimControlLibrary.dll
+    Found assembly &#39;C:\Users\Owner\Documents\Visual Studio 2010\Projects\DynaSim\trunk\DynaSimControlLibrary\bin\Debug\DynaSimControlLibrary.dll&#39;
+
+Parsing project files
+    Ignoring duplicate assembly file &#39;C:\Users\Owner\Documents\Visual Studio 2010\Projects\DynaSim\trunk\DynaSim\bin\Debug\DynaSim.exe&#39;
+    Ignoring duplicate comments file &#39;C:\Users\Owner\Documents\Visual Studio 2010\Projects\DynaSim\trunk\DynaSim\bin\Debug\DynaSim.XML&#39;
+
+References to include (excluding framework assemblies):
+    None
+
+Copying XML comments files
+    C:\Users\Owner\Documents\Visual Studio 2010\Projects\DynaSim\trunk\DynaSim\bin\Debug\DynaSim.XML -&gt; C:\Users\Owner\Documents\Visual Studio 2010\Projects\DynaSim\trunk\DynaSimDocumentation\Help\Working\DynaSim.XML
+    C:\Users\Owner\Documents\Visual Studio 2010\Projects\DynaSim\trunk\DynaSimControlLibrary\bin\Debug\DynaSimControlLibrary.XML -&gt; C:\Users\Owner\Documents\Visual Studio 2010\Projects\DynaSim\trunk\DynaSimDocumentation\Help\Working\DynaSimControlLibrary.XML
+</buildStep>
+<buildStep step="GenerateSharedContent">
+Generating shared content files (en-US, English (United States))...
+    Last step completed in 00:00:00.0600
+</buildStep>
+<buildStep step="GenerateApiFilter">
+Generating API filter for MRefBuilder...
+    Last step completed in 00:00:00.0020
+</buildStep>
+<buildStep step="GenerateReflectionInfo">
+Generating reflection information...
+[C:\Windows\Microsoft.NET\Framework\v4.0.30319\MSBuild.exe]
+  MRefBuilder (v2.7.1.0)
+  Copyright c 2006-2012, Microsoft Corporation, All Rights Reserved
+  Info: Loaded 2 assemblies for reflection and 0 dependency assemblies.
+  Info: Wrote information on 2 namespaces, 6 types, and 128 members
+  XslTransform (v2.7.1.0)
+  Copyright c 2006-2012, Microsoft Corporation, All Rights Reserved
+  Info: Applying XSL transformation &#39;C:\Program Files (x86)\Sandcastle\ProductionTransforms\MergeDuplicates.xsl&#39;.
+    Last step completed in 00:00:07.7104
+</buildStep>
+<buildStep step="GenerateNamespaceSummaries">
+Generating namespace summary information...
+    Last step completed in 00:00:00.0000
+</buildStep>
+<buildStep step="ApplyVisibilityProperties">
+Applying visibility properties to reflection information file
+    937 inherited member elements removed
+    0 event backer fields noted for removal
+    0 internal members noted for removal
+    2 internal types noted for removal
+    Removing previously noted unwanted APIs and elements
+    Last step completed in 00:00:00.3750
+</buildStep>
+<buildStep step="TransformReflectionInfo">
+Transforming reflection output...
+[C:\Windows\Microsoft.NET\Framework\v4.0.30319\MSBuild.exe]
+  XslTransform (v2.7.1.0)
+  Copyright c 2006-2012, Microsoft Corporation, All Rights Reserved
+  Info: Applying XSL transformation &#39;C:\Program Files (x86)\Sandcastle\ProductionTransforms\ApplyVSDocModel.xsl&#39;.
+  Info: Applying XSL transformation &#39;C:\Program Files (x86)\Sandcastle\ProductionTransforms\AddGuidFilenames.xsl&#39;.
+  XslTransform (v2.7.1.0)
+  Copyright c 2006-2012, Microsoft Corporation, All Rights Reserved
+  Info: Applying XSL transformation &#39;C:\Program Files (x86)\Sandcastle\ProductionTransforms\ReflectionToManifest.xsl&#39;.
+    Last step completed in 00:00:03.6982
+</buildStep>
+<buildStep step="ModifyHelpTopicFilenames">
+Modifying help topic filenames in reflection information file
+    No changes required
+    Last step completed in 00:00:00.0140
+</buildStep>
+<buildStep step="CopyStandardContent">
+Copying standard help content...
+C:\Program Files (x86)\Sandcastle\Presentation\vs2010\icons\1_404_bullet.gif -&gt; C:\Users\Owner\Documents\Visual Studio 2010\Projects\DynaSim\trunk\DynaSimDocumentation\Help\Working\Output\HtmlHelp1\icons\1_404_bullet.gif
+C:\Program Files (x86)\Sandcastle\Presentation\vs2010\icons\2_404_bullet.gif -&gt; C:\Users\Owner\Documents\Visual Studio 2010\Projects\DynaSim\trunk\DynaSimDocumentation\Help\Working\Output\HtmlHelp1\icons\2_404_bullet.gif
+C:\Program Files (x86)\Sandcastle\Presentation\vs2010\icons\alert_caution.gif -&gt; C:\Users\Owner\Documents\Visual Studio 2010\Projects\DynaSim\trunk\DynaSimDocumentation\Help\Working\Output\HtmlHelp1\icons\alert_caution.gif
+C:\Program Files (x86)\Sandcastle\Presentation\vs2010\icons\alert_note.gif -&gt; C:\Users\Owner\Documents\Visual Studio 2010\Projects\DynaSim\trunk\DynaSimDocumentation\Help\Working\Output\HtmlHelp1\icons\alert_note.gif
+C:\Program Files (x86)\Sandcastle\Presentation\vs2010\icons\alert_security.gif -&gt; C:\Users\Owner\Documents\Visual Studio 2010\Projects\DynaSim\trunk\DynaSimDocumentation\Help\Working\Output\HtmlHelp1\icons\alert_security.gif
+C:\Program Files (x86)\Sandcastle\Presentation\vs2010\icons\CFW.gif -&gt; C:\Users\Owner\Documents\Visual Studio 2010\Projects\DynaSim\trunk\DynaSimDocumentation\Help\Working\Output\HtmlHelp1\icons\CFW.gif
+C:\Program Files (x86)\Sandcastle\Presentation\vs2010\icons\close.gif -&gt; C:\Users\Owner\Documents\Visual Studio 2010\Projects\DynaSim\trunk\DynaSimDocumentation\Help\Working\Output\HtmlHelp1\icons\close.gif
+C:\Program Files (x86)\Sandcastle\Presentation\vs2010\icons\favicon.ico -&gt; C:\Users\Owner\Documents\Visual Studio 2010\Projects\DynaSim\trunk\DynaSimDocumentation\Help\Working\Output\HtmlHelp1\icons\favicon.ico
+C:\Program Files (x86)\Sandcastle\Presentation\vs2010\icons\footer_slice.gif -&gt; C:\Users\Owner\Documents\Visual Studio 2010\Projects\DynaSim\trunk\DynaSimDocumentation\Help\Working\Output\HtmlHelp1\icons\footer_slice.gif
+C:\Program Files (x86)\Sandcastle\Presentation\vs2010\icons\info_icon.gif -&gt; C:\Users\Owner\Documents\Visual Studio 2010\Projects\DynaSim\trunk\DynaSimDocumentation\Help\Working\Output\HtmlHelp1\icons\info_icon.gif
+C:\Program Files (x86)\Sandcastle\Presentation\vs2010\icons\note.gif -&gt; C:\Users\Owner\Documents\Visual Studio 2010\Projects\DynaSim\trunk\DynaSimDocumentation\Help\Working\Output\HtmlHelp1\icons\note.gif
+C:\Program Files (x86)\Sandcastle\Presentation\vs2010\icons\online_icon.gif -&gt; C:\Users\Owner\Documents\Visual Studio 2010\Projects\DynaSim\trunk\DynaSimDocumentation\Help\Working\Output\HtmlHelp1\icons\online_icon.gif
+C:\Program Files (x86)\Sandcastle\Presentation\vs2010\icons\open.gif -&gt; C:\Users\Owner\Documents\Visual Studio 2010\Projects\DynaSim\trunk\DynaSimDocumentation\Help\Working\Output\HtmlHelp1\icons\open.gif
+C:\Program Files (x86)\Sandcastle\Presentation\vs2010\icons\pencil.GIF -&gt; C:\Users\Owner\Documents\Visual Studio 2010\Projects\DynaSim\trunk\DynaSimDocumentation\Help\Working\Output\HtmlHelp1\icons\pencil.GIF
+C:\Program Files (x86)\Sandcastle\Presentation\vs2010\icons\privclass.gif -&gt; C:\Users\Owner\Documents\Visual Studio 2010\Projects\DynaSim\trunk\DynaSimDocumentation\Help\Working\Output\HtmlHelp1\icons\privclass.gif
+C:\Program Files (x86)\Sandcastle\Presentation\vs2010\icons\privdelegate.gif -&gt; C:\Users\Owner\Documents\Visual Studio 2010\Projects\DynaSim\trunk\DynaSimDocumentation\Help\Working\Output\HtmlHelp1\icons\privdelegate.gif
+C:\Program Files (x86)\Sandcastle\Presentation\vs2010\icons\privenumeration.gif -&gt; C:\Users\Owner\Documents\Visual Studio 2010\Projects\DynaSim\trunk\DynaSimDocumentation\Help\Working\Output\HtmlHelp1\icons\privenumeration.gif
+C:\Program Files (x86)\Sandcastle\Presentation\vs2010\icons\privevent.gif -&gt; C:\Users\Owner\Documents\Visual Studio 2010\Projects\DynaSim\trunk\DynaSimDocumentation\Help\Working\Output\HtmlHelp1\icons\privevent.gif
+C:\Program Files (x86)\Sandcastle\Presentation\vs2010\icons\privextension.gif -&gt; C:\Users\Owner\Documents\Visual Studio 2010\Projects\DynaSim\trunk\DynaSimDocumentation\Help\Working\Output\HtmlHelp1\icons\privextension.gif
+C:\Program Files (x86)\Sandcastle\Presentation\vs2010\icons\privfield.gif -&gt; C:\Users\Owner\Documents\Visual Studio 2010\Projects\DynaSim\trunk\DynaSimDocumentation\Help\Working\Output\HtmlHelp1\icons\privfield.gif
+C:\Program Files (x86)\Sandcastle\Presentation\vs2010\icons\privinterface.gif -&gt; C:\Users\Owner\Documents\Visual Studio 2010\Projects\DynaSim\trunk\DynaSimDocumentation\Help\Working\Output\HtmlHelp1\icons\privinterface.gif
+C:\Program Files (x86)\Sandcastle\Presentation\vs2010\icons\privmethod.gif -&gt; C:\Users\Owner\Documents\Visual Studio 2010\Projects\DynaSim\trunk\DynaSimDocumentation\Help\Working\Output\HtmlHelp1\icons\privmethod.gif
+C:\Program Files (x86)\Sandcastle\Presentation\vs2010\icons\privproperty.gif -&gt; C:\Users\Owner\Documents\Visual Studio 2010\Projects\DynaSim\trunk\DynaSimDocumentation\Help\Working\Output\HtmlHelp1\icons\privproperty.gif
+C:\Program Files (x86)\Sandcastle\Presentation\vs2010\icons\privstructure.gif -&gt; C:\Users\Owner\Documents\Visual Studio 2010\Projects\DynaSim\trunk\DynaSimDocumentation\Help\Working\Output\HtmlHelp1\icons\privstructure.gif
+C:\Program Files (x86)\Sandcastle\Presentation\vs2010\icons\protclass.gif -&gt; C:\Users\Owner\Documents\Visual Studio 2010\Projects\DynaSim\trunk\DynaSimDocumentation\Help\Working\Output\HtmlHelp1\icons\protclass.gif
+C:\Program Files (x86)\Sandcastle\Presentation\vs2010\icons\protdelegate.gif -&gt; C:\Users\Owner\Documents\Visual Studio 2010\Projects\DynaSim\trunk\DynaSimDocumentation\Help\Working\Output\HtmlHelp1\icons\protdelegate.gif
+C:\Program Files (x86)\Sandcastle\Presentation\vs2010\icons\protenumeration.gif -&gt; C:\Users\Owner\Documents\Visual Studio 2010\Projects\DynaSim\trunk\DynaSimDocumentation\Help\Working\Output\HtmlHelp1\icons\protenumeration.gif
+C:\Program Files (x86)\Sandcastle\Presentation\vs2010\icons\protevent.gif -&gt; C:\Users\Owner\Documents\Visual Studio 2010\Projects\DynaSim\trunk\DynaSimDocumentation\Help\Working\Output\HtmlHelp1\icons\protevent.gif
+C:\Program Files (x86)\Sandcastle\Presentation\vs2010\icons\protextension.gif -&gt; C:\Users\Owner\Documents\Visual Studio 2010\Projects\DynaSim\trunk\DynaSimDocumentation\Help\Working\Output\HtmlHelp1\icons\protextension.gif
+C:\Program Files (x86)\Sandcastle\Presentation\vs2010\icons\protfield.gif -&gt; C:\Users\Owner\Documents\Visual Studio 2010\Projects\DynaSim\trunk\DynaSimDocumentation\Help\Working\Output\HtmlHelp1\icons\protfield.gif
+C:\Program Files (x86)\Sandcastle\Presentation\vs2010\icons\protinterface.gif -&gt; C:\Users\Owner\Documents\Visual Studio 2010\Projects\DynaSim\trunk\DynaSimDocumentation\Help\Working\Output\HtmlHelp1\icons\protinterface.gif
+C:\Program Files (x86)\Sandcastle\Presentation\vs2010\icons\protmethod.gif -&gt; C:\Users\Owner\Documents\Visual Studio 2010\Projects\DynaSim\trunk\DynaSimDocumentation\Help\Working\Output\HtmlHelp1\icons\protmethod.gif
+C:\Program Files (x86)\Sandcastle\Presentation\vs2010\icons\protoperator.gif -&gt; C:\Users\Owner\Documents\Visual Studio 2010\Projects\DynaSim\trunk\DynaSimDocumentation\Help\Working\Output\HtmlHelp1\icons\protoperator.gif
+C:\Program Files (x86)\Sandcastle\Presentation\vs2010\icons\protproperty.gif -&gt; C:\Users\Owner\Documents\Visual Studio 2010\Projects\DynaSim\trunk\DynaSimDocumentation\Help\Working\Output\HtmlHelp1\icons\protproperty.gif
+C:\Program Files (x86)\Sandcastle\Presentation\vs2010\icons\protstructure.gif -&gt; C:\Users\Owner\Documents\Visual Studio 2010\Projects\DynaSim\trunk\DynaSimDocumentation\Help\Working\Output\HtmlHelp1\icons\protstructure.gif
+C:\Program Files (x86)\Sandcastle\Presentation\vs2010\icons\pubclass.gif -&gt; C:\Users\Owner\Documents\Visual Studio 2010\Projects\DynaSim\trunk\DynaSimDocumentation\Help\Working\Output\HtmlHelp1\icons\pubclass.gif
+C:\Program Files (x86)\Sandcastle\Presentation\vs2010\icons\pubdelegate.gif -&gt; C:\Users\Owner\Documents\Visual Studio 2010\Projects\DynaSim\trunk\DynaSimDocumentation\Help\Working\Output\HtmlHelp1\icons\pubdelegate.gif
+C:\Program Files (x86)\Sandcastle\Presentation\vs2010\icons\pubenumeration.gif -&gt; C:\Users\Owner\Documents\Visual Studio 2010\Projects\DynaSim\trunk\DynaSimDocumentation\Help\Working\Output\HtmlHelp1\icons\pubenumeration.gif
+C:\Program Files (x86)\Sandcastle\Presentation\vs2010\icons\pubevent.gif -&gt; C:\Users\Owner\Documents\Visual Studio 2010\Projects\DynaSim\trunk\DynaSimDocumentation\Help\Working\Output\HtmlHelp1\icons\pubevent.gif
+C:\Program Files (x86)\Sandcastle\Presentation\vs2010\icons\pubextension.gif -&gt; C:\Users\Owner\Documents\Visual Studio 2010\Projects\DynaSim\trunk\DynaSimDocumentation\Help\Working\Output\HtmlHelp1\icons\pubextension.gif
+C:\Program Files (x86)\Sandcastle\Presentation\vs2010\icons\pubfield.gif -&gt; C:\Users\Owner\Documents\Visual Studio 2010\Projects\DynaSim\trunk\DynaSimDocumentation\Help\Working\Output\HtmlHelp1\icons\pubfield.gif
+C:\Program Files (x86)\Sandcastle\Presentation\vs2010\icons\pubinterface.gif -&gt; C:\Users\Owner\Documents\Visual Studio 2010\Projects\DynaSim\trunk\DynaSimDocumentation\Help\Working\Output\HtmlHelp1\icons\pubinterface.gif
+C:\Program Files (x86)\Sandcastle\Presentation\vs2010\icons\pubmethod.gif -&gt; C:\Users\Owner\Documents\Visual Studio 2010\Projects\DynaSim\trunk\DynaSimDocumentation\Help\Working\Output\HtmlHelp1\icons\pubmethod.gif
+C:\Program Files (x86)\Sandcastle\Presentation\vs2010\icons\puboperator.gif -&gt; C:\Users\Owner\Documents\Visual Studio 2010\Projects\DynaSim\trunk\DynaSimDocumentation\Help\Working\Output\HtmlHelp1\icons\puboperator.gif
+C:\Program Files (x86)\Sandcastle\Presentation\vs2010\icons\pubproperty.gif -&gt; C:\Users\Owner\Documents\Visual Studio 2010\Projects\DynaSim\trunk\DynaSimDocumentation\Help\Working\Output\HtmlHelp1\icons\pubproperty.gif
+C:\Program Files (x86)\Sandcastle\Presentation\vs2010\icons\pubstructure.gif -&gt; C:\Users\Owner\Documents\Visual Studio 2010\Projects\DynaSim\trunk\DynaSimDocumentation\Help\Working\Output\HtmlHelp1\icons\pubstructure.gif
+C:\Program Files (x86)\Sandcastle\Presentation\vs2010\icons\search.gif -&gt; C:\Users\Owner\Documents\Visual Studio 2010\Projects\DynaSim\trunk\DynaSimDocumentation\Help\Working\Output\HtmlHelp1\icons\search.gif
+C:\Program Files (x86)\Sandcastle\Presentation\vs2010\icons\search_bk.gif -&gt; C:\Users\Owner\Documents\Visual Studio 2010\Projects\DynaSim\trunk\DynaSimDocumentation\Help\Working\Output\HtmlHelp1\icons\search_bk.gif
+C:\Program Files (x86)\Sandcastle\Presentation\vs2010\icons\security.gif -&gt; C:\Users\Owner\Documents\Visual Studio 2010\Projects\DynaSim\trunk\DynaSimDocumentation\Help\Working\Output\HtmlHelp1\icons\security.gif
+C:\Program Files (x86)\Sandcastle\Presentation\vs2010\icons\slMobile.gif -&gt; C:\Users\Owner\Documents\Visual Studio 2010\Projects\DynaSim\trunk\DynaSimDocumentation\Help\Working\Output\HtmlHelp1\icons\slMobile.gif
+C:\Program Files (x86)\Sandcastle\Presentation\vs2010\icons\static.gif -&gt; C:\Users\Owner\Documents\Visual Studio 2010\Projects\DynaSim\trunk\DynaSimDocumentation\Help\Working\Output\HtmlHelp1\icons\static.gif
+C:\Program Files (x86)\Sandcastle\Presentation\vs2010\icons\tabLeftBG.gif -&gt; C:\Users\Owner\Documents\Visual Studio 2010\Projects\DynaSim\trunk\DynaSimDocumentation\Help\Working\Output\HtmlHelp1\icons\tabLeftBG.gif
+C:\Program Files (x86)\Sandcastle\Presentation\vs2010\icons\tabRightBG.gif -&gt; C:\Users\Owner\Documents\Visual Studio 2010\Projects\DynaSim\trunk\DynaSimDocumentation\Help\Working\Output\HtmlHelp1\icons\tabRightBG.gif
+C:\Program Files (x86)\Sandcastle\Presentation\vs2010\icons\ui_om_collapse.gif -&gt; C:\Users\Owner\Documents\Visual Studio 2010\Projects\DynaSim\trunk\DynaSimDocumentation\Help\Working\Output\HtmlHelp1\icons\ui_om_collapse.gif
+C:\Program Files (x86)\Sandcastle\Presentation\vs2010\icons\ui_om_expand.gif -&gt; C:\Users\Owner\Documents\Visual Studio 2010\Projects\DynaSim\trunk\DynaSimDocumentation\Help\Working\Output\HtmlHelp1\icons\ui_om_expand.gif
+C:\Program Files (x86)\Sandcastle\Presentation\vs2010\icons\xna.gif -&gt; C:\Users\Owner\Documents\Visual Studio 2010\Projects\DynaSim\trunk\DynaSimDocumentation\Help\Working\Output\HtmlHelp1\icons\xna.gif
+C:\Program Files (x86)\Sandcastle\Presentation\vs2010\scripts\branding.js -&gt; C:\Users\Owner\Documents\Visual Studio 2010\Projects\DynaSim\trunk\DynaSimDocumentation\Help\Working\Output\HtmlHelp1\scripts\branding.js
+C:\Program Files (x86)\Sandcastle\Presentation\vs2010\styles\branding-cs-CZ.css -&gt; C:\Users\Owner\Documents\Visual Studio 2010\Projects\DynaSim\trunk\DynaSimDocumentation\Help\Working\Output\HtmlHelp1\styles\branding-cs-CZ.css
+C:\Program Files (x86)\Sandcastle\Presentation\vs2010\styles\branding-de-DE.css -&gt; C:\Users\Owner\Documents\Visual Studio 2010\Projects\DynaSim\trunk\DynaSimDocumentation\Help\Working\Output\HtmlHelp1\styles\branding-de-DE.css
+C:\Program Files (x86)\Sandcastle\Presentation\vs2010\styles\branding-en-US.css -&gt; C:\Users\Owner\Documents\Visual Studio 2010\Projects\DynaSim\trunk\DynaSimDocumentation\Help\Working\Output\HtmlHelp1\styles\branding-en-US.css
+C:\Program Files (x86)\Sandcastle\Presentation\vs2010\styles\branding-es-ES.css -&gt; C:\Users\Owner\Documents\Visual Studio 2010\Projects\DynaSim\trunk\DynaSimDocumentation\Help\Working\Output\HtmlHelp1\styles\branding-es-ES.css
+C:\Program Files (x86)\Sandcastle\Presentation\vs2010\styles\branding-fr-FR.css -&gt; C:\Users\Owner\Documents\Visual Studio 2010\Projects\DynaSim\trunk\DynaSimDocumentation\Help\Working\Output\HtmlHelp1\styles\branding-fr-FR.css
+C:\Program Files (x86)\Sandcastle\Presentation\vs2010\styles\branding-it-IT.css -&gt; C:\Users\Owner\Documents\Visual Studio 2010\Projects\DynaSim\trunk\DynaSimDocumentation\Help\Working\Output\HtmlHelp1\styles\branding-it-IT.css
+C:\Program Files (x86)\Sandcastle\Presentation\vs2010\styles\branding-ja-JP.css -&gt; C:\Users\Owner\Documents\Visual Studio 2010\Projects\DynaSim\trunk\DynaSimDocumentation\Help\Working\Output\HtmlHelp1\styles\branding-ja-JP.css
+C:\Program Files (x86)\Sandcastle\Presentation\vs2010\styles\branding-ko-KR.css -&gt; C:\Users\Owner\Documents\Visual Studio 2010\Projects\DynaSim\trunk\DynaSimDocumentation\Help\Working\Output\HtmlHelp1\styles\branding-ko-KR.css
+C:\Program Files (x86)\Sandcastle\Presentation\vs2010\styles\branding-pl-PL.css -&gt; C:\Users\Owner\Documents\Visual Studio 2010\Projects\DynaSim\trunk\DynaSimDocumentation\Help\Working\Output\HtmlHelp1\styles\branding-pl-PL.css
+C:\Program Files (x86)\Sandcastle\Presentation\vs2010\styles\branding-pt-BR.css -&gt; C:\Users\Owner\Documents\Visual Studio 2010\Projects\DynaSim\trunk\DynaSimDocumentation\Help\Working\Output\HtmlHelp1\styles\branding-pt-BR.css
+C:\Program Files (x86)\Sandcastle\Presentation\vs2010\styles\branding-ru-RU.css -&gt; C:\Users\Owner\Documents\Visual Studio 2010\Projects\DynaSim\trunk\DynaSimDocumentation\Help\Working\Output\HtmlHelp1\styles\branding-ru-RU.css
+C:\Program Files (x86)\Sandcastle\Presentation\vs2010\styles\branding-tr-TR.css -&gt; C:\Users\Owner\Documents\Visual Studio 2010\Projects\DynaSim\trunk\DynaSimDocumentation\Help\Working\Output\HtmlHelp1\styles\branding-tr-TR.css
+C:\Program Files (x86)\Sandcastle\Presentation\vs2010\styles\branding-zh-CN.css -&gt; C:\Users\Owner\Documents\Visual Studio 2010\Projects\DynaSim\trunk\DynaSimDocumentation\Help\Working\Output\HtmlHelp1\styles\branding-zh-CN.css
+C:\Program Files (x86)\Sandcastle\Presentation\vs2010\styles\branding-zh-TW.css -&gt; C:\Users\Owner\Documents\Visual Studio 2010\Projects\DynaSim\trunk\DynaSimDocumentation\Help\Working\Output\HtmlHelp1\styles\branding-zh-TW.css
+C:\Program Files (x86)\Sandcastle\Presentation\vs2010\styles\branding.css -&gt; C:\Users\Owner\Documents\Visual Studio 2010\Projects\DynaSim\trunk\DynaSimDocumentation\Help\Working\Output\HtmlHelp1\styles\branding.css
+Copying help branding...
+C:\Program Files (x86)\Sandcastle\Presentation\vs2010\branding\dev10.mshc -&gt; C:\Users\Owner\Documents\Visual Studio 2010\Projects\DynaSim\trunk\DynaSimDocumentation\Help\Working\Output\HtmlHelp1\branding\
+C:\Program Files (x86)\Sandcastle\Presentation\vs2010\branding\dev10.mshc -&gt; C:\Users\Owner\Documents\Visual Studio 2010\Projects\DynaSim\trunk\DynaSimDocumentation\Help\Working\branding
+    C:\Program Files (x86)\Sandcastle\Presentation\vs2010\branding\dev10.mshc/body.xslt -> C:\Users\Owner\Documents\Visual Studio 2010\Projects\DynaSim\trunk\DynaSimDocumentation\Help\Working\branding\body.xslt
+    C:\Program Files (x86)\Sandcastle\Presentation\vs2010\branding\dev10.mshc/head.xslt -> C:\Users\Owner\Documents\Visual Studio 2010\Projects\DynaSim\trunk\DynaSimDocumentation\Help\Working\branding\head.xslt
+    C:\Program Files (x86)\Sandcastle\Presentation\vs2010\branding\dev10.mshc/CodeSnippet.xslt -> C:\Users\Owner\Documents\Visual Studio 2010\Projects\DynaSim\trunk\DynaSimDocumentation\Help\Working\branding\CodeSnippet.xslt
+    C:\Program Files (x86)\Sandcastle\Presentation\vs2010\branding\dev10.mshc/codesnippet-cs-CZ.xslt -> C:\Users\Owner\Documents\Visual Studio 2010\Projects\DynaSim\trunk\DynaSimDocumentation\Help\Working\branding\codesnippet-cs-CZ.xslt
+    C:\Program Files (x86)\Sandcastle\Presentation\vs2010\branding\dev10.mshc/codesnippet-de-DE.xslt -> C:\Users\Owner\Documents\Visual Studio 2010\Projects\DynaSim\trunk\DynaSimDocumentation\Help\Working\branding\codesnippet-de-DE.xslt
+    C:\Program Files (x86)\Sandcastle\Presentation\vs2010\branding\dev10.mshc/codesnippet-en-US.xslt -> C:\Users\Owner\Documents\Visual Studio 2010\Projects\DynaSim\trunk\DynaSimDocumentation\Help\Working\branding\codesnippet-en-US.xslt
+    C:\Program Files (x86)\Sandcastle\Presentation\vs2010\branding\dev10.mshc/codesnippet-es-ES.xslt -> C:\Users\Owner\Documents\Visual Studio 2010\Projects\DynaSim\trunk\DynaSimDocumentation\Help\Working\branding\codesnippet-es-ES.xslt
+    C:\Program Files (x86)\Sandcastle\Presentation\vs2010\branding\dev10.mshc/codesnippet-fr-FR.xslt -> C:\Users\Owner\Documents\Visual Studio 2010\Projects\DynaSim\trunk\DynaSimDocumentation\Help\Working\branding\codesnippet-fr-FR.xslt
+    C:\Program Files (x86)\Sandcastle\Presentation\vs2010\branding\dev10.mshc/codesnippet-it-IT.xslt -> C:\Users\Owner\Documents\Visual Studio 2010\Projects\DynaSim\trunk\DynaSimDocumentation\Help\Working\branding\codesnippet-it-IT.xslt
+    C:\Program Files (x86)\Sandcastle\Presentation\vs2010\branding\dev10.mshc/codesnippet-ja-JP.xslt -> C:\Users\Owner\Documents\Visual Studio 2010\Projects\DynaSim\trunk\DynaSimDocumentation\Help\Working\branding\codesnippet-ja-JP.xslt
+    C:\Program Files (x86)\Sandcastle\Presentation\vs2010\branding\dev10.mshc/codesnippet-ko-KR.xslt -> C:\Users\Owner\Documents\Visual Studio 2010\Projects\DynaSim\trunk\DynaSimDocumentation\Help\Working\branding\codesnippet-ko-KR.xslt
+    C:\Program Files (x86)\Sandcastle\Presentation\vs2010\branding\dev10.mshc/codesnippet-pl-PL.xslt -> C:\Users\Owner\Documents\Visual Studio 2010\Projects\DynaSim\trunk\DynaSimDocumentation\Help\Working\branding\codesnippet-pl-PL.xslt
+    C:\Program Files (x86)\Sandcastle\Presentation\vs2010\branding\dev10.mshc/codesnippet-pt-BR.xslt -> C:\Users\Owner\Documents\Visual Studio 2010\Projects\DynaSim\trunk\DynaSimDocumentation\Help\Working\branding\codesnippet-pt-BR.xslt
+    C:\Program Files (x86)\Sandcastle\Presentation\vs2010\branding\dev10.mshc/codesnippet-ru-RU.xslt -> C:\Users\Owner\Documents\Visual Studio 2010\Projects\DynaSim\trunk\DynaSimDocumentation\Help\Working\branding\codesnippet-ru-RU.xslt
+    C:\Program Files (x86)\Sandcastle\Presentation\vs2010\branding\dev10.mshc/codesnippet-tr-TR.xslt -> C:\Users\Owner\Documents\Visual Studio 2010\Projects\DynaSim\trunk\DynaSimDocumentation\Help\Working\branding\codesnippet-tr-TR.xslt
+    C:\Program Files (x86)\Sandcastle\Presentation\vs2010\branding\dev10.mshc/codesnippet-zh-CN.xslt -> C:\Users\Owner\Documents\Visual Studio 2010\Projects\DynaSim\trunk\DynaSimDocumentation\Help\Working\branding\codesnippet-zh-CN.xslt
+    C:\Program Files (x86)\Sandcastle\Presentation\vs2010\branding\dev10.mshc/codesnippet-zh-TW.xslt -> C:\Users\Owner\Documents\Visual Studio 2010\Projects\DynaSim\trunk\DynaSimDocumentation\Help\Working\branding\codesnippet-zh-TW.xslt
+    C:\Program Files (x86)\Sandcastle\Presentation\vs2010\branding\dev10.mshc/Identity.xslt -> C:\Users\Owner\Documents\Visual Studio 2010\Projects\DynaSim\trunk\DynaSimDocumentation\Help\Working\branding\Identity.xslt
+    C:\Program Files (x86)\Sandcastle\Presentation\vs2010\branding\dev10.mshc/InstrumentedLink.xslt -> C:\Users\Owner\Documents\Visual Studio 2010\Projects\DynaSim\trunk\DynaSimDocumentation\Help\Working\branding\InstrumentedLink.xslt
+    C:\Program Files (x86)\Sandcastle\Presentation\vs2010\branding\dev10.mshc/instrumentedlink-cs-CZ.xslt -> C:\Users\Owner\Documents\Visual Studio 2010\Projects\DynaSim\trunk\DynaSimDocumentation\Help\Working\branding\instrumentedlink-cs-CZ.xslt
+    C:\Program Files (x86)\Sandcastle\Presentation\vs2010\branding\dev10.mshc/instrumentedlink-de-DE.xslt -> C:\Users\Owner\Documents\Visual Studio 2010\Projects\DynaSim\trunk\DynaSimDocumentation\Help\Working\branding\instrumentedlink-de-DE.xslt
+    C:\Program Files (x86)\Sandcastle\Presentation\vs2010\branding\dev10.mshc/instrumentedlink-en-US.xslt -> C:\Users\Owner\Documents\Visual Studio 2010\Projects\DynaSim\trunk\DynaSimDocumentation\Help\Working\branding\instrumentedlink-en-US.xslt
+    C:\Program Files (x86)\Sandcastle\Presentation\vs2010\branding\dev10.mshc/instrumentedlink-es-ES.xslt -> C:\Users\Owner\Documents\Visual Studio 2010\Projects\DynaSim\trunk\DynaSimDocumentation\Help\Working\branding\instrumentedlink-es-ES.xslt
+    C:\Program Files (x86)\Sandcastle\Presentation\vs2010\branding\dev10.mshc/instrumentedlink-fr-FR.xslt -> C:\Users\Owner\Documents\Visual Studio 2010\Projects\DynaSim\trunk\DynaSimDocumentation\Help\Working\branding\instrumentedlink-fr-FR.xslt
+    C:\Program Files (x86)\Sandcastle\Presentation\vs2010\branding\dev10.mshc/instrumentedlink-it-IT.xslt -> C:\Users\Owner\Documents\Visual Studio 2010\Projects\DynaSim\trunk\DynaSimDocumentation\Help\Working\branding\instrumentedlink-it-IT.xslt
+    C:\Program Files (x86)\Sandcastle\Presentation\vs2010\branding\dev10.mshc/instrumentedlink-ja-JP.xslt -> C:\Users\Owner\Documents\Visual Studio 2010\Projects\DynaSim\trunk\DynaSimDocumentation\Help\Working\branding\instrumentedlink-ja-JP.xslt
+    C:\Program Files (x86)\Sandcastle\Presentation\vs2010\branding\dev10.mshc/instrumentedlink-ko-KR.xslt -> C:\Users\Owner\Documents\Visual Studio 2010\Projects\DynaSim\trunk\DynaSimDocumentation\Help\Working\branding\instrumentedlink-ko-KR.xslt
+    C:\Program Files (x86)\Sandcastle\Presentation\vs2010\branding\dev10.mshc/instrumentedlink-pl-PL.xslt -> C:\Users\Owner\Documents\Visual Studio 2010\Projects\DynaSim\trunk\DynaSimDocumentation\Help\Working\branding\instrumentedlink-pl-PL.xslt
+    C:\Program Files (x86)\Sandcastle\Presentation\vs2010\branding\dev10.mshc/instrumentedlink-pt-BR.xslt -> C:\Users\Owner\Documents\Visual Studio 2010\Projects\DynaSim\trunk\DynaSimDocumentation\Help\Working\branding\instrumentedlink-pt-BR.xslt
+    C:\Program Files (x86)\Sandcastle\Presentation\vs2010\branding\dev10.mshc/instrumentedlink-ru-RU.xslt -> C:\Users\Owner\Documents\Visual Studio 2010\Projects\DynaSim\trunk\DynaSimDocumentation\Help\Working\branding\instrumentedlink-ru-RU.xslt
+    C:\Program Files (x86)\Sandcastle\Presentation\vs2010\branding\dev10.mshc/instrumentedlink-tr-TR.xslt -> C:\Users\Owner\Documents\Visual Studio 2010\Projects\DynaSim\trunk\DynaSimDocumentation\Help\Working\branding\instrumentedlink-tr-TR.xslt
+    C:\Program Files (x86)\Sandcastle\Presentation\vs2010\branding\dev10.mshc/instrumentedlink-zh-CN.xslt -> C:\Users\Owner\Documents\Visual Studio 2010\Projects\DynaSim\trunk\DynaSimDocumentation\Help\Working\branding\instrumentedlink-zh-CN.xslt
+    C:\Program Files (x86)\Sandcastle\Presentation\vs2010\branding\dev10.mshc/instrumentedlink-zh-TW.xslt -> C:\Users\Owner\Documents\Visual Studio 2010\Projects\DynaSim\trunk\DynaSimDocumentation\Help\Working\branding\instrumentedlink-zh-TW.xslt
+    C:\Program Files (x86)\Sandcastle\Presentation\vs2010\branding\dev10.mshc/LanguageSpecificText.xslt -> C:\Users\Owner\Documents\Visual Studio 2010\Projects\DynaSim\trunk\DynaSimDocumentation\Help\Working\branding\LanguageSpecificText.xslt
+    C:\Program Files (x86)\Sandcastle\Presentation\vs2010\branding\dev10.mshc/MultiViewTable.xslt -> C:\Users\Owner\Documents\Visual Studio 2010\Projects\DynaSim\trunk\DynaSimDocumentation\Help\Working\branding\MultiViewTable.xslt
+    C:\Program Files (x86)\Sandcastle\Presentation\vs2010\branding\dev10.mshc/MultiViewTable-cs-CZ.xslt -> C:\Users\Owner\Documents\Visual Studio 2010\Projects\DynaSim\trunk\DynaSimDocumentation\Help\Working\branding\MultiViewTable-cs-CZ.xslt
+    C:\Program Files (x86)\Sandcastle\Presentation\vs2010\branding\dev10.mshc/MultiViewTable-de-DE.xslt -> C:\Users\Owner\Documents\Visual Studio 2010\Projects\DynaSim\trunk\DynaSimDocumentation\Help\Working\branding\MultiViewTable-de-DE.xslt
+    C:\Program Files (x86)\Sandcastle\Presentation\vs2010\branding\dev10.mshc/MultiViewTable-en-US.xslt -> C:\Users\Owner\Documents\Visual Studio 2010\Projects\DynaSim\trunk\DynaSimDocumentation\Help\Working\branding\MultiViewTable-en-US.xslt
+    C:\Program Files (x86)\Sandcastle\Presentation\vs2010\branding\dev10.mshc/MultiViewTable-es-ES.xslt -> C:\Users\Owner\Documents\Visual Studio 2010\Projects\DynaSim\trunk\DynaSimDocumentation\Help\Working\branding\MultiViewTable-es-ES.xslt
+    C:\Program Files (x86)\Sandcastle\Presentation\vs2010\branding\dev10.mshc/MultiViewTable-fr-FR.xslt -> C:\Users\Owner\Documents\Visual Studio 2010\Projects\DynaSim\trunk\DynaSimDocumentation\Help\Working\branding\MultiViewTable-fr-FR.xslt
+    C:\Program Files (x86)\Sandcastle\Presentation\vs2010\branding\dev10.mshc/MultiViewTable-it-IT.xslt -> C:\Users\Owner\Documents\Visual Studio 2010\Projects\DynaSim\trunk\DynaSimDocumentation\Help\Working\branding\MultiViewTable-it-IT.xslt
+    C:\Program Files (x86)\Sandcastle\Presentation\vs2010\branding\dev10.mshc/MultiViewTable-ja-JP.xslt -> C:\Users\Owner\Documents\Visual Studio 2010\Projects\DynaSim\trunk\DynaSimDocumentation\Help\Working\branding\MultiViewTable-ja-JP.xslt
+    C:\Program Files (x86)\Sandcastle\Presentation\vs2010\branding\dev10.mshc/MultiViewTable-ko-KR.xslt -> C:\Users\Owner\Documents\Visual Studio 2010\Projects\DynaSim\trunk\DynaSimDocumentation\Help\Working\branding\MultiViewTable-ko-KR.xslt
+    C:\Program Files (x86)\Sandcastle\Presentation\vs2010\branding\dev10.mshc/MultiViewTable-pl-PL.xslt -> C:\Users\Owner\Documents\Visual Studio 2010\Projects\DynaSim\trunk\DynaSimDocumentation\Help\Working\branding\MultiViewTable-pl-PL.xslt
+    C:\Program Files (x86)\Sandcastle\Presentation\vs2010\branding\dev10.mshc/MultiViewTable-pt-BR.xslt -> C:\Users\Owner\Documents\Visual Studio 2010\Projects\DynaSim\trunk\DynaSimDocumentation\Help\Working\branding\MultiViewTable-pt-BR.xslt
+    C:\Program Files (x86)\Sandcastle\Presentation\vs2010\branding\dev10.mshc/MultiViewTable-ru-RU.xslt -> C:\Users\Owner\Documents\Visual Studio 2010\Projects\DynaSim\trunk\DynaSimDocumentation\Help\Working\branding\MultiViewTable-ru-RU.xslt
+    C:\Program Files (x86)\Sandcastle\Presentation\vs2010\branding\dev10.mshc/MultiViewTable-tr-TR.xslt -> C:\Users\Owner\Documents\Visual Studio 2010\Projects\DynaSim\trunk\DynaSimDocumentation\Help\Working\branding\MultiViewTable-tr-TR.xslt
+    C:\Program Files (x86)\Sandcastle\Presentation\vs2010\branding\dev10.mshc/MultiViewTable-zh-CN.xslt -> C:\Users\Owner\Documents\Visual Studio 2010\Projects\DynaSim\trunk\DynaSimDocumentation\Help\Working\branding\MultiViewTable-zh-CN.xslt
+    C:\Program Files (x86)\Sandcastle\Presentation\vs2010\branding\dev10.mshc/MultiViewTable-zh-TW.xslt -> C:\Users\Owner\Documents\Visual Studio 2010\Projects\DynaSim\trunk\DynaSimDocumentation\Help\Working\branding\MultiViewTable-zh-TW.xslt
+    C:\Program Files (x86)\Sandcastle\Presentation\vs2010\branding\dev10.mshc/index.xslt -> C:\Users\Owner\Documents\Visual Studio 2010\Projects\DynaSim\trunk\DynaSimDocumentation\Help\Working\branding\index.xslt
+    C:\Program Files (x86)\Sandcastle\Presentation\vs2010\branding\dev10.mshc/index-cs-CZ.xslt -> C:\Users\Owner\Documents\Visual Studio 2010\Projects\DynaSim\trunk\DynaSimDocumentation\Help\Working\branding\index-cs-CZ.xslt
+    C:\Program Files (x86)\Sandcastle\Presentation\vs2010\branding\dev10.mshc/index-de-DE.xslt -> C:\Users\Owner\Documents\Visual Studio 2010\Projects\DynaSim\trunk\DynaSimDocumentation\Help\Working\branding\index-de-DE.xslt
+    C:\Program Files (x86)\Sandcastle\Presentation\vs2010\branding\dev10.mshc/index-en-US.xslt -> C:\Users\Owner\Documents\Visual Studio 2010\Projects\DynaSim\trunk\DynaSimDocumentation\Help\Working\branding\index-en-US.xslt
+    C:\Program Files (x86)\Sandcastle\Presentation\vs2010\branding\dev10.mshc/index-es-ES.xslt -> C:\Users\Owner\Documents\Visual Studio 2010\Projects\DynaSim\trunk\DynaSimDocumentation\Help\Working\branding\index-es-ES.xslt
+    C:\Program Files (x86)\Sandcastle\Presentation\vs2010\branding\dev10.mshc/index-fr-FR.xslt -> C:\Users\Owner\Documents\Visual Studio 2010\Projects\DynaSim\trunk\DynaSimDocumentation\Help\Working\branding\index-fr-FR.xslt
+    C:\Program Files (x86)\Sandcastle\Presentation\vs2010\branding\dev10.mshc/index-it-IT.xslt -> C:\Users\Owner\Documents\Visual Studio 2010\Projects\DynaSim\trunk\DynaSimDocumentation\Help\Working\branding\index-it-IT.xslt
+    C:\Program Files (x86)\Sandcastle\Presentation\vs2010\branding\dev10.mshc/index-ja-JP.xslt -> C:\Users\Owner\Documents\Visual Studio 2010\Projects\DynaSim\trunk\DynaSimDocumentation\Help\Working\branding\index-ja-JP.xslt
+    C:\Program Files (x86)\Sandcastle\Presentation\vs2010\branding\dev10.mshc/index-ko-KR.xslt -> C:\Users\Owner\Documents\Visual Studio 2010\Projects\DynaSim\trunk\DynaSimDocumentation\Help\Working\branding\index-ko-KR.xslt
+    C:\Program Files (x86)\Sandcastle\Presentation\vs2010\branding\dev10.mshc/index-pl-PL.xslt -> C:\Users\Owner\Documents\Visual Studio 2010\Projects\DynaSim\trunk\DynaSimDocumentation\Help\Working\branding\index-pl-PL.xslt
+    C:\Program Files (x86)\Sandcastle\Presentation\vs2010\branding\dev10.mshc/index-pt-BR.xslt -> C:\Users\Owner\Documents\Visual Studio 2010\Projects\DynaSim\trunk\DynaSimDocumentation\Help\Working\branding\index-pt-BR.xslt
+    C:\Program Files (x86)\Sandcastle\Presentation\vs2010\branding\dev10.mshc/index-ru-RU.xslt -> C:\Users\Owner\Documents\Visual Studio 2010\Projects\DynaSim\trunk\DynaSimDocumentation\Help\Working\branding\index-ru-RU.xslt
+    C:\Program Files (x86)\Sandcastle\Presentation\vs2010\branding\dev10.mshc/index-tr-TR.xslt -> C:\Users\Owner\Documents\Visual Studio 2010\Projects\DynaSim\trunk\DynaSimDocumentation\Help\Working\branding\index-tr-TR.xslt
+    C:\Program Files (x86)\Sandcastle\Presentation\vs2010\branding\dev10.mshc/index-zh-CN.xslt -> C:\Users\Owner\Documents\Visual Studio 2010\Projects\DynaSim\trunk\DynaSimDocumentation\Help\Working\branding\index-zh-CN.xslt
+    C:\Program Files (x86)\Sandcastle\Presentation\vs2010\branding\dev10.mshc/index-zh-TW.xslt -> C:\Users\Owner\Documents\Visual Studio 2010\Projects\DynaSim\trunk\DynaSimDocumentation\Help\Working\branding\index-zh-TW.xslt
+    C:\Program Files (x86)\Sandcastle\Presentation\vs2010\branding\dev10.mshc/search.xslt -> C:\Users\Owner\Documents\Visual Studio 2010\Projects\DynaSim\trunk\DynaSimDocumentation\Help\Working\branding\search.xslt
+    C:\Program Files (x86)\Sandcastle\Presentation\vs2010\branding\dev10.mshc/search-cs-CZ.xslt -> C:\Users\Owner\Documents\Visual Studio 2010\Projects\DynaSim\trunk\DynaSimDocumentation\Help\Working\branding\search-cs-CZ.xslt
+    C:\Program Files (x86)\Sandcastle\Presentation\vs2010\branding\dev10.mshc/search-de-DE.xslt -> C:\Users\Owner\Documents\Visual Studio 2010\Projects\DynaSim\trunk\DynaSimDocumentation\Help\Working\branding\search-de-DE.xslt
+    C:\Program Files (x86)\Sandcastle\Presentation\vs2010\branding\dev10.mshc/search-en-US.xslt -> C:\Users\Owner\Documents\Visual Studio 2010\Projects\DynaSim\trunk\DynaSimDocumentation\Help\Working\branding\search-en-US.xslt
+    C:\Program Files (x86)\Sandcastle\Presentation\vs2010\branding\dev10.mshc/search-es-ES.xslt -> C:\Users\Owner\Documents\Visual Studio 2010\Projects\DynaSim\trunk\DynaSimDocumentation\Help\Working\branding\search-es-ES.xslt
+    C:\Program Files (x86)\Sandcastle\Presentation\vs2010\branding\dev10.mshc/search-fr-FR.xslt -> C:\Users\Owner\Documents\Visual Studio 2010\Projects\DynaSim\trunk\DynaSimDocumentation\Help\Working\branding\search-fr-FR.xslt
+    C:\Program Files (x86)\Sandcastle\Presentation\vs2010\branding\dev10.mshc/search-it-IT.xslt -> C:\Users\Owner\Documents\Visual Studio 2010\Projects\DynaSim\trunk\DynaSimDocumentation\Help\Working\branding\search-it-IT.xslt
+    C:\Program Files (x86)\Sandcastle\Presentation\vs2010\branding\dev10.mshc/search-ja-JP.xslt -> C:\Users\Owner\Documents\Visual Studio 2010\Projects\DynaSim\trunk\DynaSimDocumentation\Help\Working\branding\search-ja-JP.xslt
+    C:\Program Files (x86)\Sandcastle\Presentation\vs2010\branding\dev10.mshc/search-ko-KR.xslt -> C:\Users\Owner\Documents\Visual Studio 2010\Projects\DynaSim\trunk\DynaSimDocumentation\Help\Working\branding\search-ko-KR.xslt
+    C:\Program Files (x86)\Sandcastle\Presentation\vs2010\branding\dev10.mshc/search-pl-PL.xslt -> C:\Users\Owner\Documents\Visual Studio 2010\Projects\DynaSim\trunk\DynaSimDocumentation\Help\Working\branding\search-pl-PL.xslt
+    C:\Program Files (x86)\Sandcastle\Presentation\vs2010\branding\dev10.mshc/search-pt-BR.xslt -> C:\Users\Owner\Documents\Visual Studio 2010\Projects\DynaSim\trunk\DynaSimDocumentation\Help\Working\branding\search-pt-BR.xslt
+    C:\Program Files (x86)\Sandcastle\Presentation\vs2010\branding\dev10.mshc/search-ru-RU.xslt -> C:\Users\Owner\Documents\Visual Studio 2010\Projects\DynaSim\trunk\DynaSimDocumentation\Help\Working\branding\search-ru-RU.xslt
+    C:\Program Files (x86)\Sandcastle\Presentation\vs2010\branding\dev10.mshc/search-tr-TR.xslt -> C:\Users\Owner\Documents\Visual Studio 2010\Projects\DynaSim\trunk\DynaSimDocumentation\Help\Working\branding\search-tr-TR.xslt
+    C:\Program Files (x86)\Sandcastle\Presentation\vs2010\branding\dev10.mshc/search-zh-CN.xslt -> C:\Users\Owner\Documents\Visual Studio 2010\Projects\DynaSim\trunk\DynaSimDocumentation\Help\Working\branding\search-zh-CN.xslt
+    C:\Program Files (x86)\Sandcastle\Presentation\vs2010\branding\dev10.mshc/search-zh-TW.xslt -> C:\Users\Owner\Documents\Visual Studio 2010\Projects\DynaSim\trunk\DynaSimDocumentation\Help\Working\branding\search-zh-TW.xslt
+    C:\Program Files (x86)\Sandcastle\Presentation\vs2010\branding\dev10.mshc/toc.xslt -> C:\Users\Owner\Documents\Visual Studio 2010\Projects\DynaSim\trunk\DynaSimDocumentation\Help\Working\branding\toc.xslt
+    C:\Program Files (x86)\Sandcastle\Presentation\vs2010\branding\dev10.mshc/toc-cs-CZ.xslt -> C:\Users\Owner\Documents\Visual Studio 2010\Projects\DynaSim\trunk\DynaSimDocumentation\Help\Working\branding\toc-cs-CZ.xslt
+    C:\Program Files (x86)\Sandcastle\Presentation\vs2010\branding\dev10.mshc/toc-de-DE.xslt -> C:\Users\Owner\Documents\Visual Studio 2010\Projects\DynaSim\trunk\DynaSimDocumentation\Help\Working\branding\toc-de-DE.xslt
+    C:\Program Files (x86)\Sandcastle\Presentation\vs2010\branding\dev10.mshc/toc-en-US.xslt -> C:\Users\Owner\Documents\Visual Studio 2010\Projects\DynaSim\trunk\DynaSimDocumentation\Help\Working\branding\toc-en-US.xslt
+    C:\Program Files (x86)\Sandcastle\Presentation\vs2010\branding\dev10.mshc/toc-es-ES.xslt -> C:\Users\Owner\Documents\Visual Studio 2010\Projects\DynaSim\trunk\DynaSimDocumentation\Help\Working\branding\toc-es-ES.xslt
+    C:\Program Files (x86)\Sandcastle\Presentation\vs2010\branding\dev10.mshc/toc-fr-FR.xslt -> C:\Users\Owner\Documents\Visual Studio 2010\Projects\DynaSim\trunk\DynaSimDocumentation\Help\Working\branding\toc-fr-FR.xslt
+    C:\Program Files (x86)\Sandcastle\Presentation\vs2010\branding\dev10.mshc/toc-it-IT.xslt -> C:\Users\Owner\Documents\Visual Studio 2010\Projects\DynaSim\trunk\DynaSimDocumentation\Help\Working\branding\toc-it-IT.xslt
+    C:\Program Files (x86)\Sandcastle\Presentation\vs2010\branding\dev10.mshc/toc-ja-JP.xslt -> C:\Users\Owner\Documents\Visual Studio 2010\Projects\DynaSim\trunk\DynaSimDocumentation\Help\Working\branding\toc-ja-JP.xslt
+    C:\Program Files (x86)\Sandcastle\Presentation\vs2010\branding\dev10.mshc/toc-ko-KR.xslt -> C:\Users\Owner\Documents\Visual Studio 2010\Projects\DynaSim\trunk\DynaSimDocumentation\Help\Working\branding\toc-ko-KR.xslt
+    C:\Program Files (x86)\Sandcastle\Presentation\vs2010\branding\dev10.mshc/toc-pl-PL.xslt -> C:\Users\Owner\Documents\Visual Studio 2010\Projects\DynaSim\trunk\DynaSimDocumentation\Help\Working\branding\toc-pl-PL.xslt
+    C:\Program Files (x86)\Sandcastle\Presentation\vs2010\branding\dev10.mshc/toc-pt-BR.xslt -> C:\Users\Owner\Documents\Visual Studio 2010\Projects\DynaSim\trunk\DynaSimDocumentation\Help\Working\branding\toc-pt-BR.xslt
+    C:\Program Files (x86)\Sandcastle\Presentation\vs2010\branding\dev10.mshc/toc-ru-RU.xslt -> C:\Users\Owner\Documents\Visual Studio 2010\Projects\DynaSim\trunk\DynaSimDocumentation\Help\Working\branding\toc-ru-RU.xslt
+    C:\Program Files (x86)\Sandcastle\Presentation\vs2010\branding\dev10.mshc/toc-tr-TR.xslt -> C:\Users\Owner\Documents\Visual Studio 2010\Projects\DynaSim\trunk\DynaSimDocumentation\Help\Working\branding\toc-tr-TR.xslt
+    C:\Program Files (x86)\Sandcastle\Presentation\vs2010\branding\dev10.mshc/toc-zh-CN.xslt -> C:\Users\Owner\Documents\Visual Studio 2010\Projects\DynaSim\trunk\DynaSimDocumentation\Help\Working\branding\toc-zh-CN.xslt
+    C:\Program Files (x86)\Sandcastle\Presentation\vs2010\branding\dev10.mshc/toc-zh-TW.xslt -> C:\Users\Owner\Documents\Visual Studio 2010\Projects\DynaSim\trunk\DynaSimDocumentation\Help\Working\branding\toc-zh-TW.xslt
+C:\Program Files (x86)\Sandcastle\Presentation\vs2010\branding -&gt; C:\Users\Owner\Documents\Visual Studio 2010\Projects\DynaSim\trunk\DynaSimDocumentation\Help\Working\Output\HtmlHelp1\branding\
+C:\Program Files (x86)\Sandcastle\Presentation\vs2010\branding -&gt; C:\Users\Owner\Documents\Visual Studio 2010\Projects\DynaSim\trunk\DynaSimDocumentation\Help\Working\branding
+    C:\Program Files (x86)\Sandcastle\Presentation\vs2010\branding\branding.xml -> C:\Users\Owner\Documents\Visual Studio 2010\Projects\DynaSim\trunk\DynaSimDocumentation\Help\Working\branding\branding.xml
+    C:\Program Files (x86)\Sandcastle\Presentation\vs2010\branding\branding.xslt -> C:\Users\Owner\Documents\Visual Studio 2010\Projects\DynaSim\trunk\DynaSimDocumentation\Help\Working\branding\branding.xslt
+    C:\Program Files (x86)\Sandcastle\Presentation\vs2010\branding\branding-cs-CZ.xslt -> C:\Users\Owner\Documents\Visual Studio 2010\Projects\DynaSim\trunk\DynaSimDocumentation\Help\Working\branding\branding-cs-CZ.xslt
+    C:\Program Files (x86)\Sandcastle\Presentation\vs2010\branding\branding-de-DE.xslt -> C:\Users\Owner\Documents\Visual Studio 2010\Projects\DynaSim\trunk\DynaSimDocumentation\Help\Working\branding\branding-de-DE.xslt
+    C:\Program Files (x86)\Sandcastle\Presentation\vs2010\branding\branding-en-US.xslt -> C:\Users\Owner\Documents\Visual Studio 2010\Projects\DynaSim\trunk\DynaSimDocumentation\Help\Working\branding\branding-en-US.xslt
+    C:\Program Files (x86)\Sandcastle\Presentation\vs2010\branding\branding-es-ES.xslt -> C:\Users\Owner\Documents\Visual Studio 2010\Projects\DynaSim\trunk\DynaSimDocumentation\Help\Working\branding\branding-es-ES.xslt
+    C:\Program Files (x86)\Sandcastle\Presentation\vs2010\branding\branding-fr-FR.xslt -> C:\Users\Owner\Documents\Visual Studio 2010\Projects\DynaSim\trunk\DynaSimDocumentation\Help\Working\branding\branding-fr-FR.xslt
+    C:\Program Files (x86)\Sandcastle\Presentation\vs2010\branding\branding-it-IT.xslt -> C:\Users\Owner\Documents\Visual Studio 2010\Projects\DynaSim\trunk\DynaSimDocumentation\Help\Working\branding\branding-it-IT.xslt
+    C:\Program Files (x86)\Sandcastle\Presentation\vs2010\branding\branding-ja-JP.xslt -> C:\Users\Owner\Documents\Visual Studio 2010\Projects\DynaSim\trunk\DynaSimDocumentation\Help\Working\branding\branding-ja-JP.xslt
+    C:\Program Files (x86)\Sandcastle\Presentation\vs2010\branding\branding-ko-KR.xslt -> C:\Users\Owner\Documents\Visual Studio 2010\Projects\DynaSim\trunk\DynaSimDocumentation\Help\Working\branding\branding-ko-KR.xslt
+    C:\Program Files (x86)\Sandcastle\Presentation\vs2010\branding\branding-pl-PL.xslt -> C:\Users\Owner\Documents\Visual Studio 2010\Projects\DynaSim\trunk\DynaSimDocumentation\Help\Working\branding\branding-pl-PL.xslt
+    C:\Program Files (x86)\Sandcastle\Presentation\vs2010\branding\branding-pt-BR.xslt -> C:\Users\Owner\Documents\Visual Studio 2010\Projects\DynaSim\trunk\DynaSimDocumentation\Help\Working\branding\branding-pt-BR.xslt
+    C:\Program Files (x86)\Sandcastle\Presentation\vs2010\branding\branding-ru-RU.xslt -> C:\Users\Owner\Documents\Visual Studio 2010\Projects\DynaSim\trunk\DynaSimDocumentation\Help\Working\branding\branding-ru-RU.xslt
+    C:\Program Files (x86)\Sandcastle\Presentation\vs2010\branding\branding-tr-TR.xslt -> C:\Users\Owner\Documents\Visual Studio 2010\Projects\DynaSim\trunk\DynaSimDocumentation\Help\Working\branding\branding-tr-TR.xslt
+    C:\Program Files (x86)\Sandcastle\Presentation\vs2010\branding\branding-zh-CN.xslt -> C:\Users\Owner\Documents\Visual Studio 2010\Projects\DynaSim\trunk\DynaSimDocumentation\Help\Working\branding\branding-zh-CN.xslt
+    C:\Program Files (x86)\Sandcastle\Presentation\vs2010\branding\branding-zh-TW.xslt -> C:\Users\Owner\Documents\Visual Studio 2010\Projects\DynaSim\trunk\DynaSimDocumentation\Help\Working\branding\branding-zh-TW.xslt
+    C:\Program Files (x86)\Sandcastle\Presentation\vs2010\branding\ps-body.xslt -> C:\Users\Owner\Documents\Visual Studio 2010\Projects\DynaSim\trunk\DynaSimDocumentation\Help\Working\branding\ps-body.xslt
+    C:\Program Files (x86)\Sandcastle\Presentation\vs2010\branding\ps-head.xslt -> C:\Users\Owner\Documents\Visual Studio 2010\Projects\DynaSim\trunk\DynaSimDocumentation\Help\Working\branding\ps-head.xslt
+    C:\Program Files (x86)\Sandcastle\Presentation\vs2010\branding\ps-foot.xslt -> C:\Users\Owner\Documents\Visual Studio 2010\Projects\DynaSim\trunk\DynaSimDocumentation\Help\Working\branding\ps-foot.xslt
+    C:\Program Files (x86)\Sandcastle\Presentation\vs2010\branding\ps-collapsibleArea.xslt -> C:\Users\Owner\Documents\Visual Studio 2010\Projects\DynaSim\trunk\DynaSimDocumentation\Help\Working\branding\ps-collapsibleArea.xslt
+    C:\Program Files (x86)\Sandcastle\Presentation\vs2010\branding\ps-instrumentedLink.xslt -> C:\Users\Owner\Documents\Visual Studio 2010\Projects\DynaSim\trunk\DynaSimDocumentation\Help\Working\branding\ps-instrumentedLink.xslt
+    C:\Program Files (x86)\Sandcastle\Presentation\vs2010\branding\ps-languageSpecificText.xslt -> C:\Users\Owner\Documents\Visual Studio 2010\Projects\DynaSim\trunk\DynaSimDocumentation\Help\Working\branding\ps-languageSpecificText.xslt
+    C:\Program Files (x86)\Sandcastle\Presentation\vs2010\branding\ps-codesnippet.xslt -> C:\Users\Owner\Documents\Visual Studio 2010\Projects\DynaSim\trunk\DynaSimDocumentation\Help\Working\branding\ps-codesnippet.xslt
+    Last step completed in 00:00:00.6260
+</buildStep>
+<buildStep step="CopyAdditionalContent">
+Copying additional content files...
+No additional content to copy
+    Last step completed in 00:00:00.0000
+</buildStep>
+<buildStep step="MergeTablesOfContents">
+Merging conceptual and additional tables of contents...
+    Last step completed in 00:00:00.0000
+</buildStep>
+<buildStep step="GenerateIntermediateTableOfContents">
+Generating intermediate table of contents file...
+[C:\Windows\Microsoft.NET\Framework\v4.0.30319\MSBuild.exe]
+  XslTransform (v2.7.1.0)
+  Copyright c 2006-2012, Microsoft Corporation, All Rights Reserved
+  Info: Applying XSL transformation &#39;C:\Program Files (x86)\Sandcastle\ProductionTransforms\CreateVSToc.xsl&#39;.
+Generating conceptual content intermediate TOC file...
+    Last step completed in 00:00:00.7780
+</buildStep>
+<buildStep step="CreateBuildAssemblerConfigs">
+Creating Sandcastle configuration files...
+    sandcastle.config
+    Last step completed in 00:00:00.0180
+</buildStep>
+<buildStep step="MergeCustomConfigs">
+Merging custom build component configurations
+C:\Users\Owner\Documents\Visual Studio 2010\Projects\DynaSim\trunk\DynaSimDocumentation\Help\Working\sandcastle.config
+    Last step completed in 00:00:00.1990
+</buildStep>
+<buildStep step="BuildReferenceTopics">
+Building reference help topics...
+[C:\Windows\Microsoft.NET\Framework\v4.0.30319\MSBuild.exe]
+  BuildAssembler (v2.7.1.0)
+  Copyright c 2006-2012, Microsoft Corporation, All Rights Reserved
+  Info: CopyFromFileComponent: Instantiating component.
+  Info: CopyFromFileComponent: Loading data file &#39;C:\Program Files (x86)\Sandcastle\Presentation\vs2010\Transforms\skeleton.xml&#39;.
+  Info: CopyFromIndexComponent: Instantiating component.
+  Info: CopyFromIndexComponent: Searching for files that match &#39;*.xml&#39; in &#39;C:\Program Files (x86)\Sandcastle\Data\Reflection&#39;.
+  Info: CopyFromIndexComponent: Searching for files that match &#39;reflection.xml&#39;.
+  Info: CopyFromIndexComponent: Indexed 193967 elements in 410 files.
+  Info: CopyFromIndexComponent: Loaded 0 copy components.
+  Info: CopyFromIndexComponent: Instantiating component.
+  Info: CopyFromIndexComponent: Loaded 0 copy components.
+  Info: ForEachComponent: Instantiating component.
+  Info: ForEachComponent: Loading subcomponents.
+  Info: CopyFromIndexComponent: Instantiating component.
+  Info: CopyFromIndexComponent: Loaded 0 copy components.
+  Info: ForEachComponent: Loaded 1 subcomponents.
+  Info: ForEachComponent: Instantiating component.
+  Info: ForEachComponent: Loading subcomponents.
+  Info: CopyFromIndexComponent: Instantiating component.
+  Info: CopyFromIndexComponent: Loaded 0 copy components.
+  Info: ForEachComponent: Loaded 1 subcomponents.
+  Info: ForEachComponent: Instantiating component.
+  Info: ForEachComponent: Loading subcomponents.
+  Info: CopyFromIndexComponent: Instantiating component.
+  Info: CopyFromIndexComponent: Loaded 0 copy components.
+  Info: ForEachComponent: Loaded 1 subcomponents.
+  Info: ForEachComponent: Instantiating component.
+  Info: ForEachComponent: Loading subcomponents.
+  Info: CopyFromIndexComponent: Instantiating component.
+  Info: CopyFromIndexComponent: Loaded 0 copy components.
+  Info: ForEachComponent: Loaded 1 subcomponents.
+  Info: ForEachComponent: Instantiating component.
+  Info: ForEachComponent: Loading subcomponents.
+  Info: CopyFromIndexComponent: Instantiating component.
+  Info: CopyFromIndexComponent: Loaded 0 copy components.
+  Info: ForEachComponent: Loaded 1 subcomponents.
+  Info: ForEachComponent: Instantiating component.
+  Info: ForEachComponent: Loading subcomponents.
+  Info: CopyFromIndexComponent: Instantiating component.
+  Info: CopyFromIndexComponent: Loaded 0 copy components.
+  Info: ForEachComponent: Loaded 1 subcomponents.
+  Info: ForEachComponent: Instantiating component.
+  Info: ForEachComponent: Loading subcomponents.
+  Info: CopyFromIndexComponent: Instantiating component.
+  Info: CopyFromIndexComponent: Loaded 0 copy components.
+  Info: ForEachComponent: Loaded 1 subcomponents.
+  Info: IfThenComponent: Instantiating component.
+  Info: SyntaxComponent: Instantiating component.
+  Info: SyntaxComponent: Loaded 3 syntax generators.
+  Info: CopyFromIndexComponent: Instantiating component.
+  Info: CopyFromIndexComponent: Searching for files that match &#39;*.xml&#39; in &#39;C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0&#39;.
+  Info: CopyFromIndexComponent: Searching for files that match &#39;*.xml&#39; in &#39;C:\Program Files (x86)\Reference Assemblies\Microsoft\FSharp\2.0\Runtime\v4.0&#39;.
+  Info: CopyFromIndexComponent: Searching for files that match &#39;C:\Users\Owner\Documents\Visual Studio 2010\Projects\DynaSim\trunk\DynaSimDocumentation\Help\Working\DynaSim.XML&#39;.
+  Info: CopyFromIndexComponent: Searching for files that match &#39;C:\Users\Owner\Documents\Visual Studio 2010\Projects\DynaSim\trunk\DynaSimDocumentation\Help\Working\DynaSimControlLibrary.XML&#39;.
+  Info: CopyFromIndexComponent: Indexed 145459 elements in 129 files.
+  Info: CopyFromIndexComponent: Loaded 0 copy components.
+  Info: ForEachComponent: Instantiating component.
+  Info: ForEachComponent: Loading subcomponents.
+  Info: IfThenComponent: Instantiating component.
+  Info: CopyFromIndexComponent: Instantiating component.
+  Info: CopyFromIndexComponent: Loaded 0 copy components.
+  Info: CopyFromIndexComponent: Instantiating component.
+  Info: CopyFromIndexComponent: Loaded 0 copy components.
+  Info: ForEachComponent: Loaded 2 subcomponents.
+  Info: CopyFromIndexComponent: Instantiating component.
+  Info: CopyFromIndexComponent: Loaded 0 copy components.
+  Info: ShowMissingComponent: Instantiating component.
+  Info: ShowMissingComponent: 
+      [Sandcastle Help File Builder, version 1.9.5.0]
+      Show Missing Documentation Component. Copyright c 2006-2012, Eric Woodruff, All Rights Reserved
+      http://SHFB.CodePlex.com
+  Info: VersionInfoComponent: Instantiating component.
+  Info: VersionInfoComponent: 
+      [Sandcastle Help File Builder, version 1.9.5.0]
+      Version Information Component. Copyright c 2006-2012, Eric Woodruff, All Rights Reserved
+      http://SHFB.CodePlex.com
+  Info: CodeBlockComponent: Instantiating component.
+  Info: CodeBlockComponent: 
+      [Sandcastle Help File Builder, version 1.9.5.0]
+      Code Block Component.  Copyright c 2006-2012, Eric Woodruff, All Rights Reserved.
+      Portions copyright (c) 2003, Jonathan de Halleux, All rights reserved.
+      http://SHFB.CodePlex.com
+  Info: TransformComponent: Instantiating component.
+  Info: PostTransformComponent: Instantiating component.
+  Info: PostTransformComponent: 
+      [Sandcastle Help File Builder, version 1.9.5.0]
+      Post-Transform Component. Copyright c 2006-2012, Eric Woodruff, All Rights Reserved
+      http://SHFB.CodePlex.com
+  Info: MultiFormatOutputComponent: Instantiating component.
+  Info: MultiFormatOutputComponent: 
+      [Sandcastle Help File Builder, version 1.9.5.0]
+      Multi-Format Output Component. Copyright c 2006-2012, Eric Woodruff, All Rights Reserved
+      http://SHFB.CodePlex.com
+  Info: MultiFormatOutputComponent: Loading components for HtmlHelp1 format
+  Info: SharedContentComponent: Instantiating component.
+  Info: SharedContentComponent: Searching for files that match &#39;C:\Program Files (x86)\Sandcastle\Presentation\vs2010\content\shared_content.xml&#39;.
+  Info: SharedContentComponent: Loading shared content file &#39;C:\Program Files (x86)\Sandcastle\Presentation\vs2010\content\shared_content.xml&#39;.
+  Info: SharedContentComponent: Found 1 files in C:\Program Files (x86)\Sandcastle\Presentation\vs2010\content\shared_content.xml.
+  Info: SharedContentComponent: Searching for files that match &#39;C:\Program Files (x86)\Sandcastle\Presentation\vs2010\content\reference_content.xml&#39;.
+  Info: SharedContentComponent: Loading shared content file &#39;C:\Program Files (x86)\Sandcastle\Presentation\vs2010\content\reference_content.xml&#39;.
+  Info: SharedContentComponent: Found 1 files in C:\Program Files (x86)\Sandcastle\Presentation\vs2010\content\reference_content.xml.
+  Info: SharedContentComponent: Searching for files that match &#39;C:\Program Files (x86)\Sandcastle\Presentation\shared\content\syntax_content.xml&#39;.
+  Info: SharedContentComponent: Loading shared content file &#39;C:\Program Files (x86)\Sandcastle\Presentation\shared\content\syntax_content.xml&#39;.
+  Info: SharedContentComponent: Found 1 files in C:\Program Files (x86)\Sandcastle\Presentation\shared\content\syntax_content.xml.
+  Info: SharedContentComponent: Searching for files that match &#39;C:\Program Files (x86)\Sandcastle\Presentation\vs2010\content\feedback_content.xml&#39;.
+  Info: SharedContentComponent: Loading shared content file &#39;C:\Program Files (x86)\Sandcastle\Presentation\vs2010\content\feedBack_content.xml&#39;.
+  Info: SharedContentComponent: Found 1 files in C:\Program Files (x86)\Sandcastle\Presentation\vs2010\content\feedback_content.xml.
+  Info: SharedContentComponent: Searching for files that match &#39;SharedBuilderContent.xml&#39;.
+  Info: SharedContentComponent: Loading shared content file &#39;C:\Users\Owner\Documents\Visual Studio 2010\Projects\DynaSim\trunk\DynaSimDocumentation\Help\Working\SharedBuilderContent.xml&#39;.
+  Info: SharedContentComponent: Overriding shared content item &#39;roottopictitle&#39; with value in file &#39;C:\Users\Owner\Documents\Visual Studio 2010\Projects\DynaSim\trunk\DynaSimDocumentation\Help\Working\SharedBuilderContent.xml&#39;.
+  Info: SharedContentComponent: Overriding shared content item &#39;producttitle&#39; with value in file &#39;C:\Users\Owner\Documents\Visual Studio 2010\Projects\DynaSim\trunk\DynaSimDocumentation\Help\Working\SharedBuilderContent.xml&#39;.
+  Info: SharedContentComponent: Overriding shared content item &#39;runningheadertext&#39; with value in file &#39;C:\Users\Owner\Documents\Visual Studio 2010\Projects\DynaSim\trunk\DynaSimDocumentation\Help\Working\SharedBuilderContent.xml&#39;.
+  Info: SharedContentComponent: Overriding shared content item &#39;locationinformation&#39; with value in file &#39;C:\Users\Owner\Documents\Visual Studio 2010\Projects\DynaSim\trunk\DynaSimDocumentation\Help\Working\SharedBuilderContent.xml&#39;.
+  Info: SharedContentComponent: Overriding shared content item &#39;assemblynameandmodule&#39; with value in file &#39;C:\Users\Owner\Documents\Visual Studio 2010\Projects\DynaSim\trunk\DynaSimDocumentation\Help\Working\SharedBuilderContent.xml&#39;.
+  Info: SharedContentComponent: Overriding shared content item &#39;copycode&#39; with value in file &#39;C:\Users\Owner\Documents\Visual Studio 2010\Projects\DynaSim\trunk\DynaSimDocumentation\Help\Working\SharedBuilderContent.xml&#39;.
+  Info: SharedContentComponent: Overriding shared content item &#39;preliminary&#39; with value in file &#39;C:\Users\Owner\Documents\Visual Studio 2010\Projects\DynaSim\trunk\DynaSimDocumentation\Help\Working\SharedBuilderContent.xml&#39;.
+  Info: SharedContentComponent: Found 1 files in SharedBuilderContent.xml.
+  Info: SharedContentComponent: Searching for files that match &#39;PresentationStyleBuilderContent.xml&#39;.
+  Info: SharedContentComponent: Loading shared content file &#39;C:\Users\Owner\Documents\Visual Studio 2010\Projects\DynaSim\trunk\DynaSimDocumentation\Help\Working\PresentationStyleBuilderContent.xml&#39;.
+  Info: SharedContentComponent: Overriding shared content item &#39;copyright_info&#39; with value in file &#39;C:\Users\Owner\Documents\Visual Studio 2010\Projects\DynaSim\trunk\DynaSimDocumentation\Help\Working\PresentationStyleBuilderContent.xml&#39;.
+  Info: SharedContentComponent: Overriding shared content item &#39;copyright_link&#39; with value in file &#39;C:\Users\Owner\Documents\Visual Studio 2010\Projects\DynaSim\trunk\DynaSimDocumentation\Help\Working\PresentationStyleBuilderContent.xml&#39;.
+  Info: SharedContentComponent: Overriding shared content item &#39;copyright_text&#39; with value in file &#39;C:\Users\Owner\Documents\Visual Studio 2010\Projects\DynaSim\trunk\DynaSimDocumentation\Help\Working\PresentationStyleBuilderContent.xml&#39;.
+  Info: SharedContentComponent: Overriding shared content item &#39;header&#39; with value in file &#39;C:\Users\Owner\Documents\Visual Studio 2010\Projects\DynaSim\trunk\DynaSimDocumentation\Help\Working\PresentationStyleBuilderContent.xml&#39;.
+  Info: SharedContentComponent: Overriding shared content item &#39;footer_text&#39; with value in file &#39;C:\Users\Owner\Documents\Visual Studio 2010\Projects\DynaSim\trunk\DynaSimDocumentation\Help\Working\PresentationStyleBuilderContent.xml&#39;.
+  Info: SharedContentComponent: Overriding shared content item &#39;fb_alias&#39; with value in file &#39;C:\Users\Owner\Documents\Visual Studio 2010\Projects\DynaSim\trunk\DynaSimDocumentation\Help\Working\PresentationStyleBuilderContent.xml&#39;.
+  Info: SharedContentComponent: Overriding shared content item &#39;fb_product&#39; with value in file &#39;C:\Users\Owner\Documents\Visual Studio 2010\Projects\DynaSim\trunk\DynaSimDocumentation\Help\Working\PresentationStyleBuilderContent.xml&#39;.
+  Info: SharedContentComponent: Overriding shared content item &#39;fb_topic&#39; with value in file &#39;C:\Users\Owner\Documents\Visual Studio 2010\Projects\DynaSim\trunk\DynaSimDocumentation\Help\Working\PresentationStyleBuilderContent.xml&#39;.
+  Info: SharedContentComponent: Overriding shared content item &#39;fb_text&#39; with value in file &#39;C:\Users\Owner\Documents\Visual Studio 2010\Projects\DynaSim\trunk\DynaSimDocumentation\Help\Working\PresentationStyleBuilderContent.xml&#39;.
+  Info: SharedContentComponent: Overriding shared content item &#39;fb_footer_to&#39; with value in file &#39;C:\Users\Owner\Documents\Visual Studio 2010\Projects\DynaSim\trunk\DynaSimDocumentation\Help\Working\PresentationStyleBuilderContent.xml&#39;.
+  Info: SharedContentComponent: Overriding shared content item &#39;fb_footer_text&#39; with value in file &#39;C:\Users\Owner\Documents\Visual Studio 2010\Projects\DynaSim\trunk\DynaSimDocumentation\Help\Working\PresentationStyleBuilderContent.xml&#39;.
+  Info: SharedContentComponent: Overriding shared content item &#39;fb_footer_text_to&#39; with value in file &#39;C:\Users\Owner\Documents\Visual Studio 2010\Projects\DynaSim\trunk\DynaSimDocumentation\Help\Working\PresentationStyleBuilderContent.xml&#39;.
+  Info: SharedContentComponent: Overriding shared content item &#39;fb_body&#39; with value in file &#39;C:\Users\Owner\Documents\Visual Studio 2010\Projects\DynaSim\trunk\DynaSimDocumentation\Help\Working\PresentationStyleBuilderContent.xml&#39;.
+  Info: SharedContentComponent: Found 1 files in PresentationStyleBuilderContent.xml.
+  Info: SharedContentComponent: Loaded 566 shared content items.
+  Info: ResolveConceptualLinksComponent: Instantiating component.
+  Info: ResolveConceptualLinksComponent: Collected 1 targets directories.
+  Info: ResolveReferenceLinksComponent2: Instantiating component.
+  Info: ResolveReferenceLinksComponent2: Creating MSDN URL resolver.
+  Info: ResolveReferenceLinksComponent2: Searching directory &#39;C:\Program Files (x86)\Sandcastle\Data\Reflection&#39; for targets files of the form &#39;*.xml&#39;.
+  Info: ResolveReferenceLinksComponent2: Searching directory &#39;C:\Users\Owner\Documents\Visual Studio 2010\Projects\DynaSim\trunk\DynaSimDocumentation\Help\Working&#39; for targets files of the form &#39;reflection.xml&#39;.
+  Info: ResolveReferenceLinksComponent2: Loaded 193967 reference targets.
+  Info: BrandingComponent: Instantiating component.
+  Info: BrandingComponent: Branding Transform &quot;C:\Users\Owner\Documents\Visual Studio 2010\Projects\DynaSim\trunk\DynaSimDocumentation\Help\Working\branding\branding-en-us.xslt&quot; catalogProductFamily=VS catalogProductVersion=100 catalogLocale=en-us
+  Info: SaveComponent: Instantiating component.
+  Info: BuildAssembler: Building topic N:DynaSim
+  Warn: ShowMissingComponent: Missing &lt;summary&gt; documentation for N:DynaSim
+  Info: BuildAssembler: Building topic T:DynaSim.EquationBuilder
+  Info: BuildAssembler: Building topic AllMembers.T:DynaSim.EquationBuilder
+  Info: ShowMissingComponent: Auto-documenting constructor M:DynaSim.EquationBuilder.#ctor
+  Info: BuildAssembler: Building topic Methods.T:DynaSim.EquationBuilder
+  Info: BuildAssembler: Building topic M:DynaSim.EquationBuilder.#ctor
+  Info: ShowMissingComponent: Auto-documenting constructor M:DynaSim.EquationBuilder.#ctor
+  Info: BuildAssembler: Building topic M:DynaSim.EquationBuilder.BuildEquationFromDataGridView(System.Windows.Forms.DataGridView,System.String@)
+  Info: BuildAssembler: Building topic T:DynaSim.Form1
+  Info: BuildAssembler: Building topic AllMembers.T:DynaSim.Form1
+  Info: ShowMissingComponent: Auto-documenting constructor M:DynaSim.Form1.#ctor
+  Info: BuildAssembler: Building topic Methods.T:DynaSim.Form1
+  Info: BuildAssembler: Building topic Fields.T:DynaSim.Form1
+  Info: BuildAssembler: Building topic M:DynaSim.Form1.#ctor
+  Info: ShowMissingComponent: Auto-documenting constructor M:DynaSim.Form1.#ctor
+  Info: BuildAssembler: Building topic F:DynaSim.Form1.aboutToolStripMenuItem
+  Warn: ShowMissingComponent: Missing &lt;summary&gt; documentation for F:DynaSim.Form1.aboutToolStripMenuItem
+  Info: BuildAssembler: Building topic F:DynaSim.Form1.AcceptableOperators
+  Info: BuildAssembler: Building topic F:DynaSim.Form1.btnGraphMoveLeft
+  Warn: ShowMissingComponent: Missing &lt;summary&gt; documentation for F:DynaSim.Form1.btnGraphMoveLeft
+  Info: BuildAssembler: Building topic F:DynaSim.Form1.btnGraphMoveRight
+  Warn: ShowMissingComponent: Missing &lt;summary&gt; documentation for F:DynaSim.Form1.btnGraphMoveRight
+  Info: BuildAssembler: Building topic M:DynaSim.Form1.btnGraphTabPlay_Click(System.Object,System.EventArgs)
+  Warn: ShowMissingComponent: Missing &lt;param name=&quot;sender&quot;/&gt; documentation for M:DynaSim.Form1.btnGraphTabPlay_Click(System.Object,System.EventArgs)
+  Warn: ShowMissingComponent: Missing &lt;param name=&quot;e&quot;/&gt; documentation for M:DynaSim.Form1.btnGraphTabPlay_Click(System.Object,System.EventArgs)
+  Info: BuildAssembler: Building topic F:DynaSim.Form1.btnGraphTabRunSim
+  Warn: ShowMissingComponent: Missing &lt;summary&gt; documentation for F:DynaSim.Form1.btnGraphTabRunSim
+  Info: BuildAssembler: Building topic F:DynaSim.Form1.btnInteractionsPageAddConstantInteraction
+  Warn: ShowMissingComponent: Missing &lt;summary&gt; documentation for F:DynaSim.Form1.btnInteractionsPageAddConstantInteraction
+  Info: BuildAssembler: Building topic F:DynaSim.Form1.btnInteractionsPageAddVariableInteraction
+  Warn: ShowMissingComponent: Missing &lt;summary&gt; documentation for F:DynaSim.Form1.btnInteractionsPageAddVariableInteraction
+  Info: BuildAssembler: Building topic M:DynaSim.Form1.btnInteractionsPageAddVariableInteraction_Click(System.Object,System.EventArgs)
+  Warn: ShowMissingComponent: Missing &lt;param name=&quot;sender&quot;/&gt; documentation for M:DynaSim.Form1.btnInteractionsPageAddVariableInteraction_Click(System.Object,System.EventArgs)
+  Warn: ShowMissingComponent: Missing &lt;param name=&quot;e&quot;/&gt; documentation for M:DynaSim.Form1.btnInteractionsPageAddVariableInteraction_Click(System.Object,System.EventArgs)
+  Info: BuildAssembler: Building topic F:DynaSim.Form1.btnInteractionsTabRunSim
+  Warn: ShowMissingComponent: Missing &lt;summary&gt; documentation for F:DynaSim.Form1.btnInteractionsTabRunSim
+  Info: BuildAssembler: Building topic F:DynaSim.Form1.btnLoadSimulation
+  Warn: ShowMissingComponent: Missing &lt;summary&gt; documentation for F:DynaSim.Form1.btnLoadSimulation
+  Info: BuildAssembler: Building topic F:DynaSim.Form1.btnLoadSystem
+  Warn: ShowMissingComponent: Missing &lt;summary&gt; documentation for F:DynaSim.Form1.btnLoadSystem
+  Info: BuildAssembler: Building topic F:DynaSim.Form1.btnSave
+  Warn: ShowMissingComponent: Missing &lt;summary&gt; documentation for F:DynaSim.Form1.btnSave
+  Info: BuildAssembler: Building topic M:DynaSim.Form1.btnSave_Click(System.Object,System.EventArgs)
+  Warn: ShowMissingComponent: Missing &lt;param name=&quot;sender&quot;/&gt; documentation for M:DynaSim.Form1.btnSave_Click(System.Object,System.EventArgs)
+  Warn: ShowMissingComponent: Missing &lt;param name=&quot;e&quot;/&gt; documentation for M:DynaSim.Form1.btnSave_Click(System.Object,System.EventArgs)
+  Info: BuildAssembler: Building topic M:DynaSim.Form1.btnSaveAs_Click(System.Object,System.EventArgs)
+  Warn: ShowMissingComponent: Missing &lt;param name=&quot;sender&quot;/&gt; documentation for M:DynaSim.Form1.btnSaveAs_Click(System.Object,System.EventArgs)
+  Warn: ShowMissingComponent: Missing &lt;param name=&quot;e&quot;/&gt; documentation for M:DynaSim.Form1.btnSaveAs_Click(System.Object,System.EventArgs)
+  Info: BuildAssembler: Building topic M:DynaSim.Form1.CheckForNoSelection(System.Windows.Forms.Control)
+  Info: BuildAssembler: Building topic M:DynaSim.Form1.CheckInteractionOperation(System.Windows.Forms.Control)
+  Warn: ShowMissingComponent: Missing &lt;param name=&quot;text&quot;/&gt; documentation for M:DynaSim.Form1.CheckInteractionOperation(System.Windows.Forms.Control)
+  Info: BuildAssembler: Building topic F:DynaSim.Form1.cmbInteractionDropDown
+  Warn: ShowMissingComponent: Missing &lt;summary&gt; documentation for F:DynaSim.Form1.cmbInteractionDropDown
+  Info: BuildAssembler: Building topic F:DynaSim.Form1.cmbInteractionsPageIntermediateUnit
+  Warn: ShowMissingComponent: Missing &lt;summary&gt; documentation for F:DynaSim.Form1.cmbInteractionsPageIntermediateUnit
+  Info: BuildAssembler: Building topic F:DynaSim.Form1.cmbInteractionsPageIntermediateUnitConstant
+  Warn: ShowMissingComponent: Missing &lt;summary&gt; documentation for F:DynaSim.Form1.cmbInteractionsPageIntermediateUnitConstant
+  Info: BuildAssembler: Building topic F:DynaSim.Form1.cmbInteractionsPageToInteract
+  Warn: ShowMissingComponent: Missing &lt;summary&gt; documentation for F:DynaSim.Form1.cmbInteractionsPageToInteract
+  Info: BuildAssembler: Building topic F:DynaSim.Form1.cmbInteractionsPageToInteractWith
+  Warn: ShowMissingComponent: Missing &lt;summary&gt; documentation for F:DynaSim.Form1.cmbInteractionsPageToInteractWith
+  Info: BuildAssembler: Building topic F:DynaSim.Form1.cmbInteractionsPageToInteractWithViaConstant
+  Warn: ShowMissingComponent: Missing &lt;summary&gt; documentation for F:DynaSim.Form1.cmbInteractionsPageToInteractWithViaConstant
+  Info: BuildAssembler: Building topic F:DynaSim.Form1.cmbMasterTimeUnit
+  Warn: ShowMissingComponent: Missing &lt;summary&gt; documentation for F:DynaSim.Form1.cmbMasterTimeUnit
+  Info: BuildAssembler: Building topic F:DynaSim.Form1.colBirthRate
+  Warn: ShowMissingComponent: Missing &lt;summary&gt; documentation for F:DynaSim.Form1.colBirthRate
+  Info: BuildAssembler: Building topic F:DynaSim.Form1.colChangeRateInteraction
+  Warn: ShowMissingComponent: Missing &lt;summary&gt; documentation for F:DynaSim.Form1.colChangeRateInteraction
+  Info: BuildAssembler: Building topic F:DynaSim.Form1.colDeathRate
+  Warn: ShowMissingComponent: Missing &lt;summary&gt; documentation for F:DynaSim.Form1.colDeathRate
+  Info: BuildAssembler: Building topic F:DynaSim.Form1.colRateOfChange
+  Warn: ShowMissingComponent: Missing &lt;summary&gt; documentation for F:DynaSim.Form1.colRateOfChange
+  Info: BuildAssembler: Building topic F:DynaSim.Form1.colVariableNameInput
+  Warn: ShowMissingComponent: Missing &lt;summary&gt; documentation for F:DynaSim.Form1.colVariableNameInput
+  Info: BuildAssembler: Building topic F:DynaSim.Form1.colVariableNameInteraction
+  Warn: ShowMissingComponent: Missing &lt;summary&gt; documentation for F:DynaSim.Form1.colVariableNameInteraction
+  Info: BuildAssembler: Building topic F:DynaSim.Form1.colVariableQuantity
+  Warn: ShowMissingComponent: Missing &lt;summary&gt; documentation for F:DynaSim.Form1.colVariableQuantity
+  Info: BuildAssembler: Building topic F:DynaSim.Form1.comboBox1
+  Warn: ShowMissingComponent: Missing &lt;summary&gt; documentation for F:DynaSim.Form1.comboBox1
+  Info: BuildAssembler: Building topic F:DynaSim.Form1.comboBox2
+  Warn: ShowMissingComponent: Missing &lt;summary&gt; documentation for F:DynaSim.Form1.comboBox2
+  Info: BuildAssembler: Building topic F:DynaSim.Form1.components
+  Info: BuildAssembler: Building topic F:DynaSim.Form1.Data
+  Warn: ShowMissingComponent: Missing &lt;summary&gt; documentation for F:DynaSim.Form1.Data
+  Info: BuildAssembler: Building topic F:DynaSim.Form1.dgvInteractions
+  Warn: ShowMissingComponent: Missing &lt;summary&gt; documentation for F:DynaSim.Form1.dgvInteractions
+  Info: BuildAssembler: Building topic F:DynaSim.Form1.dgvTable
+  Warn: ShowMissingComponent: Missing &lt;summary&gt; documentation for F:DynaSim.Form1.dgvTable
+  Info: BuildAssembler: Building topic M:DynaSim.Form1.dgvTable_CellContentClick(System.Object,System.Windows.Forms.DataGridViewCellEventArgs)
+  Warn: ShowMissingComponent: Missing &lt;summary&gt; documentation for M:DynaSim.Form1.dgvTable_CellContentClick(System.Object,System.Windows.Forms.DataGridViewCellEventArgs)
+  Warn: ShowMissingComponent: Missing &lt;param name=&quot;sender&quot;/&gt; documentation for M:DynaSim.Form1.dgvTable_CellContentClick(System.Object,System.Windows.Forms.DataGridViewCellEventArgs)
+  Warn: ShowMissingComponent: Missing &lt;param name=&quot;e&quot;/&gt; documentation for M:DynaSim.Form1.dgvTable_CellContentClick(System.Object,System.Windows.Forms.DataGridViewCellEventArgs)
+  Info: BuildAssembler: Building topic F:DynaSim.Form1.dgvVariables
+  Warn: ShowMissingComponent: Missing &lt;summary&gt; documentation for F:DynaSim.Form1.dgvVariables
+  Info: BuildAssembler: Building topic M:DynaSim.Form1.dgvVariables_CellContentClick(System.Object,System.Windows.Forms.DataGridViewCellEventArgs)
+  Warn: ShowMissingComponent: Missing &lt;summary&gt; documentation for M:DynaSim.Form1.dgvVariables_CellContentClick(System.Object,System.Windows.Forms.DataGridViewCellEventArgs)
+  Warn: ShowMissingComponent: Missing &lt;param name=&quot;sender&quot;/&gt; documentation for M:DynaSim.Form1.dgvVariables_CellContentClick(System.Object,System.Windows.Forms.DataGridViewCellEventArgs)
+  Warn: ShowMissingComponent: Missing &lt;param name=&quot;e&quot;/&gt; documentation for M:DynaSim.Form1.dgvVariables_CellContentClick(System.Object,System.Windows.Forms.DataGridViewCellEventArgs)
+  Info: BuildAssembler: Building topic M:DynaSim.Form1.Dispose(System.Boolean)
+  Info: BuildAssembler: Building topic F:DynaSim.Form1.eb
+  Warn: ShowMissingComponent: Missing &lt;summary&gt; documentation for F:DynaSim.Form1.eb
+  Info: BuildAssembler: Building topic F:DynaSim.Form1.errorProvider
+  Warn: ShowMissingComponent: Missing &lt;summary&gt; documentation for F:DynaSim.Form1.errorProvider
+  Info: BuildAssembler: Building topic F:DynaSim.Form1.exitToolStripMenuItem
+  Warn: ShowMissingComponent: Missing &lt;summary&gt; documentation for F:DynaSim.Form1.exitToolStripMenuItem
+  Info: BuildAssembler: Building topic M:DynaSim.Form1.exitToolStripMenuItem_Click_1(System.Object,System.EventArgs)
+  Warn: ShowMissingComponent: Missing &lt;param name=&quot;sender&quot;/&gt; documentation for M:DynaSim.Form1.exitToolStripMenuItem_Click_1(System.Object,System.EventArgs)
+  Warn: ShowMissingComponent: Missing &lt;param name=&quot;e&quot;/&gt; documentation for M:DynaSim.Form1.exitToolStripMenuItem_Click_1(System.Object,System.EventArgs)
+  Info: BuildAssembler: Building topic F:DynaSim.Form1.fileToolStripMenuItem
+  Warn: ShowMissingComponent: Missing &lt;summary&gt; documentation for F:DynaSim.Form1.fileToolStripMenuItem
+  Info: BuildAssembler: Building topic F:DynaSim.Form1.graphControl1
+  Warn: ShowMissingComponent: Missing &lt;summary&gt; documentation for F:DynaSim.Form1.graphControl1
+  Info: BuildAssembler: Building topic F:DynaSim.Form1.helpToolStripMenuItem
+  Warn: ShowMissingComponent: Missing &lt;summary&gt; documentation for F:DynaSim.Form1.helpToolStripMenuItem
+  Info: BuildAssembler: Building topic F:DynaSim.Form1.inFile
+  Warn: ShowMissingComponent: Missing &lt;summary&gt; documentation for F:DynaSim.Form1.inFile
+  Info: BuildAssembler: Building topic M:DynaSim.Form1.InitializeComponent
+  Info: BuildAssembler: Building topic M:DynaSim.Form1.interactionsTabPage_Enter(System.Object,System.EventArgs)
+  Warn: ShowMissingComponent: Missing &lt;param name=&quot;sender&quot;/&gt; documentation for M:DynaSim.Form1.interactionsTabPage_Enter(System.Object,System.EventArgs)
+  Warn: ShowMissingComponent: Missing &lt;param name=&quot;e&quot;/&gt; documentation for M:DynaSim.Form1.interactionsTabPage_Enter(System.Object,System.EventArgs)
+  Info: BuildAssembler: Building topic F:DynaSim.Form1.label1
+  Warn: ShowMissingComponent: Missing &lt;summary&gt; documentation for F:DynaSim.Form1.label1
+  Info: BuildAssembler: Building topic F:DynaSim.Form1.label2
+  Warn: ShowMissingComponent: Missing &lt;summary&gt; documentation for F:DynaSim.Form1.label2
+  Info: BuildAssembler: Building topic F:DynaSim.Form1.label3
+  Warn: ShowMissingComponent: Missing &lt;summary&gt; documentation for F:DynaSim.Form1.label3
+  Info: BuildAssembler: Building topic F:DynaSim.Form1.label4
+  Warn: ShowMissingComponent: Missing &lt;summary&gt; documentation for F:DynaSim.Form1.label4
+  Info: BuildAssembler: Building topic F:DynaSim.Form1.lblInteractionsPageConstant
+  Warn: ShowMissingComponent: Missing &lt;summary&gt; documentation for F:DynaSim.Form1.lblInteractionsPageConstant
+  Info: BuildAssembler: Building topic F:DynaSim.Form1.lblInteractionsPageInteractionEffectConstantOnQuantity
+  Warn: ShowMissingComponent: Missing &lt;summary&gt; documentation for F:DynaSim.Form1.lblInteractionsPageInteractionEffectConstantOnQuantity
+  Info: BuildAssembler: Building topic F:DynaSim.Form1.lblInteractionsPageInteractionEffectOnQuantity
+  Warn: ShowMissingComponent: Missing &lt;summary&gt; documentation for F:DynaSim.Form1.lblInteractionsPageInteractionEffectOnQuantity
+  Info: BuildAssembler: Building topic F:DynaSim.Form1.lblInteractionsPageInteractsWith
+  Warn: ShowMissingComponent: Missing &lt;summary&gt; documentation for F:DynaSim.Form1.lblInteractionsPageInteractsWith
+  Info: BuildAssembler: Building topic F:DynaSim.Form1.lblInteractsWith
+  Warn: ShowMissingComponent: Missing &lt;summary&gt; documentation for F:DynaSim.Form1.lblInteractsWith
+  Info: BuildAssembler: Building topic F:DynaSim.Form1.lblMasterTimeUnit
+  Warn: ShowMissingComponent: Missing &lt;summary&gt; documentation for F:DynaSim.Form1.lblMasterTimeUnit
+  Info: BuildAssembler: Building topic F:DynaSim.Form1.lblPerUnit
+  Warn: ShowMissingComponent: Missing &lt;summary&gt; documentation for F:DynaSim.Form1.lblPerUnit
+  Info: BuildAssembler: Building topic F:DynaSim.Form1.mainMenuStrip
+  Warn: ShowMissingComponent: Missing &lt;summary&gt; documentation for F:DynaSim.Form1.mainMenuStrip
+  Info: BuildAssembler: Building topic F:DynaSim.Form1.mainTabControl
+  Warn: ShowMissingComponent: Missing &lt;summary&gt; documentation for F:DynaSim.Form1.mainTabControl
+  Info: BuildAssembler: Building topic F:DynaSim.Form1.openFileDialog1
+  Warn: ShowMissingComponent: Missing &lt;summary&gt; documentation for F:DynaSim.Form1.openFileDialog1
+  Info: BuildAssembler: Building topic F:DynaSim.Form1.openToolStripMenuItem
+  Warn: ShowMissingComponent: Missing &lt;summary&gt; documentation for F:DynaSim.Form1.openToolStripMenuItem
+  Info: BuildAssembler: Building topic M:DynaSim.Form1.openToolStripMenuItem_Click(System.Object,System.EventArgs)
+  Warn: ShowMissingComponent: Missing &lt;param name=&quot;sender&quot;/&gt; documentation for M:DynaSim.Form1.openToolStripMenuItem_Click(System.Object,System.EventArgs)
+  Warn: ShowMissingComponent: Missing &lt;param name=&quot;e&quot;/&gt; documentation for M:DynaSim.Form1.openToolStripMenuItem_Click(System.Object,System.EventArgs)
+  Info: BuildAssembler: Building topic F:DynaSim.Form1.optionsToolStripMenuItem
+  Warn: ShowMissingComponent: Missing &lt;summary&gt; documentation for F:DynaSim.Form1.optionsToolStripMenuItem
+  Info: BuildAssembler: Building topic F:DynaSim.Form1.outFile
+  Warn: ShowMissingComponent: Missing &lt;summary&gt; documentation for F:DynaSim.Form1.outFile
+  Info: BuildAssembler: Building topic F:DynaSim.Form1.outFileBool
+  Warn: ShowMissingComponent: Missing &lt;summary&gt; documentation for F:DynaSim.Form1.outFileBool
+  Info: BuildAssembler: Building topic F:DynaSim.Form1.outValue
+  Warn: ShowMissingComponent: Missing &lt;summary&gt; documentation for F:DynaSim.Form1.outValue
+  Info: BuildAssembler: Building topic F:DynaSim.Form1.pnlGraph
+  Warn: ShowMissingComponent: Missing &lt;summary&gt; documentation for F:DynaSim.Form1.pnlGraph
+  Info: BuildAssembler: Building topic F:DynaSim.Form1.pnlGraphGeneral
+  Warn: ShowMissingComponent: Missing &lt;summary&gt; documentation for F:DynaSim.Form1.pnlGraphGeneral
+  Info: BuildAssembler: Building topic F:DynaSim.Form1.pnlInputData
+  Warn: ShowMissingComponent: Missing &lt;summary&gt; documentation for F:DynaSim.Form1.pnlInputData
+  Info: BuildAssembler: Building topic F:DynaSim.Form1.pnlInteractionPanel
+  Warn: ShowMissingComponent: Missing &lt;summary&gt; documentation for F:DynaSim.Form1.pnlInteractionPanel
+  Info: BuildAssembler: Building topic F:DynaSim.Form1.saveAsToolStripMenuItem
+  Warn: ShowMissingComponent: Missing &lt;summary&gt; documentation for F:DynaSim.Form1.saveAsToolStripMenuItem
+  Info: BuildAssembler: Building topic F:DynaSim.Form1.saveFileDialog1
+  Warn: ShowMissingComponent: Missing &lt;summary&gt; documentation for F:DynaSim.Form1.saveFileDialog1
+  Info: BuildAssembler: Building topic F:DynaSim.Form1.saveToolStripMenuItem
+  Warn: ShowMissingComponent: Missing &lt;summary&gt; documentation for F:DynaSim.Form1.saveToolStripMenuItem
+  Info: BuildAssembler: Building topic F:DynaSim.Form1.tabGraphTabPage
+  Warn: ShowMissingComponent: Missing &lt;summary&gt; documentation for F:DynaSim.Form1.tabGraphTabPage
+  Info: BuildAssembler: Building topic F:DynaSim.Form1.tabInteractionsTabPage
+  Warn: ShowMissingComponent: Missing &lt;summary&gt; documentation for F:DynaSim.Form1.tabInteractionsTabPage
+  Info: BuildAssembler: Building topic M:DynaSim.Form1.tableTabPage_Enter(System.Object,System.EventArgs)
+  Warn: ShowMissingComponent: Missing &lt;param name=&quot;sender&quot;/&gt; documentation for M:DynaSim.Form1.tableTabPage_Enter(System.Object,System.EventArgs)
+  Warn: ShowMissingComponent: Missing &lt;param name=&quot;e&quot;/&gt; documentation for M:DynaSim.Form1.tableTabPage_Enter(System.Object,System.EventArgs)
+  Info: BuildAssembler: Building topic M:DynaSim.Form1.tableTabPage_Leave(System.Object,System.EventArgs)
+  Warn: ShowMissingComponent: Missing &lt;param name=&quot;sender&quot;/&gt; documentation for M:DynaSim.Form1.tableTabPage_Leave(System.Object,System.EventArgs)
+  Warn: ShowMissingComponent: Missing &lt;param name=&quot;e&quot;/&gt; documentation for M:DynaSim.Form1.tableTabPage_Leave(System.Object,System.EventArgs)
+  Info: BuildAssembler: Building topic F:DynaSim.Form1.tabTableTabPage
+  Warn: ShowMissingComponent: Missing &lt;summary&gt; documentation for F:DynaSim.Form1.tabTableTabPage
+  Info: BuildAssembler: Building topic F:DynaSim.Form1.textBox1
+  Warn: ShowMissingComponent: Missing &lt;summary&gt; documentation for F:DynaSim.Form1.textBox1
+  Info: BuildAssembler: Building topic F:DynaSim.Form1.txtInteractionsPageConstantEffectOnQuantity
+  Warn: ShowMissingComponent: Missing &lt;summary&gt; documentation for F:DynaSim.Form1.txtInteractionsPageConstantEffectOnQuantity
+  Info: BuildAssembler: Building topic F:DynaSim.Form1.txtInteractionsPageConstantName
+  Warn: ShowMissingComponent: Missing &lt;summary&gt; documentation for F:DynaSim.Form1.txtInteractionsPageConstantName
+  Info: BuildAssembler: Building topic F:DynaSim.Form1.txtInteractionsPageEffectOnQuantity
+  Warn: ShowMissingComponent: Missing &lt;summary&gt; documentation for F:DynaSim.Form1.txtInteractionsPageEffectOnQuantity
+  Info: BuildAssembler: Building topic M:DynaSim.Program.Main
+  Warn: SharedContentComponent: Missing shared content item. Tag:&#39;include&#39;; Id:&#39;text_upper&#39;.
+  Warn: ResolveReferenceLinksComponent2: Unknown reference link target &#39;T:DynaSim.Program&#39;.
+  Info: BuildAssembler: Building topic N:DynaSimControlLibrary
+  Warn: ShowMissingComponent: Missing &lt;summary&gt; documentation for N:DynaSimControlLibrary
+  Info: BuildAssembler: Building topic T:DynaSimControlLibrary.GraphControl
+  Warn: ResolveReferenceLinksComponent2: Unknown reference link target &#39;T:DynaSimControlLibrary.IGraphInterface&#39;.
+  Warn: ResolveReferenceLinksComponent2: Unknown reference link target &#39;T:DynaSimControlLibrary.IGraphInterface&#39;.
+  Warn: ResolveReferenceLinksComponent2: Unknown reference link target &#39;T:DynaSimControlLibrary.IGraphInterface&#39;.
+  Info: BuildAssembler: Building topic AllMembers.T:DynaSimControlLibrary.GraphControl
+  Info: BuildAssembler: Building topic Methods.T:DynaSimControlLibrary.GraphControl
+  Info: BuildAssembler: Building topic Fields.T:DynaSimControlLibrary.GraphControl
+  Info: BuildAssembler: Building topic M:DynaSimControlLibrary.GraphControl.#ctor
+  Info: BuildAssembler: Building topic M:DynaSimControlLibrary.GraphControl.AddVariable(System.String,System.String)
+  Info: BuildAssembler: Building topic M:DynaSimControlLibrary.GraphControl.AdvanceGraphUnit
+  Info: BuildAssembler: Building topic M:DynaSimControlLibrary.GraphControl.BuildColorList
+  Info: BuildAssembler: Building topic F:DynaSimControlLibrary.GraphControl.components
+  Info: BuildAssembler: Building topic F:DynaSimControlLibrary.GraphControl.currentGraphUnit
+  Warn: ShowMissingComponent: Missing &lt;summary&gt; documentation for F:DynaSimControlLibrary.GraphControl.currentGraphUnit
+  Info: BuildAssembler: Building topic M:DynaSimControlLibrary.GraphControl.Dispose(System.Boolean)
+  Info: BuildAssembler: Building topic M:DynaSimControlLibrary.GraphControl.DynaSimControlLibrary#IGraphInterface#SetGraphUnitsAcrossXAxis(System.UInt32)
+  Warn: ShowMissingComponent: Missing &lt;summary&gt; documentation for M:DynaSimControlLibrary.GraphControl.DynaSimControlLibrary#IGraphInterface#SetGraphUnitsAcrossXAxis(System.UInt32)
+  Warn: ShowMissingComponent: Missing &lt;param name=&quot;unitCount&quot;/&gt; documentation for M:DynaSimControlLibrary.GraphControl.DynaSimControlLibrary#IGraphInterface#SetGraphUnitsAcrossXAxis(System.UInt32)
+  Warn: ResolveReferenceLinksComponent2: Unknown reference link target &#39;T:DynaSimControlLibrary.IGraphInterface&#39;.
+  Warn: ResolveReferenceLinksComponent2: Unknown reference link target &#39;T:DynaSimControlLibrary.IGraphInterface&#39;.
+  Warn: ResolveReferenceLinksComponent2: Unknown reference link target &#39;T:DynaSimControlLibrary.IGraphInterface&#39;.
+  Info: BuildAssembler: Building topic M:DynaSimControlLibrary.GraphControl.DynaSimControlLibrary#IGraphInterface#SetGraphUnitsAcrossYAxis(System.UInt32)
+  Warn: ShowMissingComponent: Missing &lt;summary&gt; documentation for M:DynaSimControlLibrary.GraphControl.DynaSimControlLibrary#IGraphInterface#SetGraphUnitsAcrossYAxis(System.UInt32)
+  Warn: ShowMissingComponent: Missing &lt;param name=&quot;unitCount&quot;/&gt; documentation for M:DynaSimControlLibrary.GraphControl.DynaSimControlLibrary#IGraphInterface#SetGraphUnitsAcrossYAxis(System.UInt32)
+  Warn: ResolveReferenceLinksComponent2: Unknown reference link target &#39;T:DynaSimControlLibrary.IGraphInterface&#39;.
+  Warn: ResolveReferenceLinksComponent2: Unknown reference link target &#39;T:DynaSimControlLibrary.IGraphInterface&#39;.
+  Warn: ResolveReferenceLinksComponent2: Unknown reference link target &#39;T:DynaSimControlLibrary.IGraphInterface&#39;.
+  Info: BuildAssembler: Building topic M:DynaSimControlLibrary.GraphControl.DynaSimControlLibrary#IGraphInterface#SetGraphViewTimeUnit(System.UInt32)
+  Warn: ShowMissingComponent: Missing &lt;summary&gt; documentation for M:DynaSimControlLibrary.GraphControl.DynaSimControlLibrary#IGraphInterface#SetGraphViewTimeUnit(System.UInt32)
+  Warn: ShowMissingComponent: Missing &lt;param name=&quot;timeUnitCode&quot;/&gt; documentation for M:DynaSimControlLibrary.GraphControl.DynaSimControlLibrary#IGraphInterface#SetGraphViewTimeUnit(System.UInt32)
+  Warn: ResolveReferenceLinksComponent2: Unknown reference link target &#39;T:DynaSimControlLibrary.IGraphInterface&#39;.
+  Warn: ResolveReferenceLinksComponent2: Unknown reference link target &#39;T:DynaSimControlLibrary.IGraphInterface&#39;.
+  Warn: ResolveReferenceLinksComponent2: Unknown reference link target &#39;T:DynaSimControlLibrary.IGraphInterface&#39;.
+  Info: BuildAssembler: Building topic M:DynaSimControlLibrary.GraphControl.GetNextColor
+  Warn: ShowMissingComponent: Missing &lt;returns&gt; documentation for M:DynaSimControlLibrary.GraphControl.GetNextColor
+  Info: BuildAssembler: Building topic F:DynaSimControlLibrary.GraphControl.graphColors
+  Warn: ShowMissingComponent: Missing &lt;summary&gt; documentation for F:DynaSimControlLibrary.GraphControl.graphColors
+  Info: BuildAssembler: Building topic M:DynaSimControlLibrary.GraphControl.InitializeComponent
+  Info: BuildAssembler: Building topic M:DynaSimControlLibrary.GraphControl.InitializeGraphVariableListView
+  Info: BuildAssembler: Building topic M:DynaSimControlLibrary.GraphControl.IsVariableNameAdded(System.String)
+  Info: BuildAssembler: Building topic F:DynaSimControlLibrary.GraphControl.lstGraphVariableList
+  Warn: ShowMissingComponent: Missing &lt;summary&gt; documentation for F:DynaSimControlLibrary.GraphControl.lstGraphVariableList
+  Info: BuildAssembler: Building topic F:DynaSimControlLibrary.GraphControl.pbxGraphPictureBox
+  Warn: ShowMissingComponent: Missing &lt;summary&gt; documentation for F:DynaSimControlLibrary.GraphControl.pbxGraphPictureBox
+  Info: BuildAssembler: Building topic M:DynaSimControlLibrary.GraphControl.PopulateListView
+  Info: BuildAssembler: Building topic M:DynaSimControlLibrary.GraphControl.Redraw
+  Info: BuildAssembler: Building topic M:DynaSimControlLibrary.GraphControl.RemoveVariable(System.String)
+  Info: BuildAssembler: Building topic M:DynaSimControlLibrary.GraphControl.UpdateGraphItem(System.String,System.String)
+  Info: BuildAssembler: Building topic F:DynaSimControlLibrary.GraphControl.variables
+  Info: BuildAssembler: Building topic F:DynaSimControlLibrary.GraphControl.Variables
+  Warn: ShowMissingComponent: Missing &lt;summary&gt; documentation for F:DynaSimControlLibrary.GraphControl.Variables
+  Info: BuildAssembler: Building topic T:DynaSimControlLibrary.GraphControl.NamedVariable
+  Info: BuildAssembler: Building topic AllMembers.T:DynaSimControlLibrary.GraphControl.NamedVariable
+  Info: ShowMissingComponent: Auto-documenting constructor M:DynaSimControlLibrary.GraphControl.NamedVariable.#ctor
+  Info: BuildAssembler: Building topic Properties.T:DynaSimControlLibrary.GraphControl.NamedVariable
+  Info: BuildAssembler: Building topic Fields.T:DynaSimControlLibrary.GraphControl.NamedVariable
+  Info: BuildAssembler: Building topic M:DynaSimControlLibrary.GraphControl.NamedVariable.#ctor(System.String,System.UInt32,System.Drawing.Color)
+  Info: ShowMissingComponent: Auto-documenting constructor M:DynaSimControlLibrary.GraphControl.NamedVariable.#ctor(System.String,System.UInt32,System.Drawing.Color)
+  Warn: ShowMissingComponent: Missing &lt;param name=&quot;variableName&quot;/&gt; documentation for M:DynaSimControlLibrary.GraphControl.NamedVariable.#ctor(System.String,System.UInt32,System.Drawing.Color)
+  Warn: ShowMissingComponent: Missing &lt;param name=&quot;firstValue&quot;/&gt; documentation for M:DynaSimControlLibrary.GraphControl.NamedVariable.#ctor(System.String,System.UInt32,System.Drawing.Color)
+  Warn: ShowMissingComponent: Missing &lt;param name=&quot;firstGraphColor&quot;/&gt; documentation for M:DynaSimControlLibrary.GraphControl.NamedVariable.#ctor(System.String,System.UInt32,System.Drawing.Color)
+  Info: BuildAssembler: Building topic F:DynaSimControlLibrary.GraphControl.NamedVariable.graphColor
+  Warn: ShowMissingComponent: Missing &lt;summary&gt; documentation for F:DynaSimControlLibrary.GraphControl.NamedVariable.graphColor
+  Info: BuildAssembler: Building topic P:DynaSimControlLibrary.GraphControl.NamedVariable.GraphColor
+  Warn: ShowMissingComponent: Missing &lt;summary&gt; documentation for P:DynaSimControlLibrary.GraphControl.NamedVariable.GraphColor
+  Info: BuildAssembler: Building topic F:DynaSimControlLibrary.GraphControl.NamedVariable.name
+  Warn: ShowMissingComponent: Missing &lt;summary&gt; documentation for F:DynaSimControlLibrary.GraphControl.NamedVariable.name
+  Info: BuildAssembler: Building topic P:DynaSimControlLibrary.GraphControl.NamedVariable.Name
+  Warn: ShowMissingComponent: Missing &lt;summary&gt; documentation for P:DynaSimControlLibrary.GraphControl.NamedVariable.Name
+  Info: BuildAssembler: Building topic F:DynaSimControlLibrary.GraphControl.NamedVariable.values
+  Warn: ShowMissingComponent: Missing &lt;summary&gt; documentation for F:DynaSimControlLibrary.GraphControl.NamedVariable.values
+  Info: BuildAssembler: Building topic P:DynaSimControlLibrary.GraphControl.NamedVariable.Values
+  Warn: ShowMissingComponent: Missing &lt;summary&gt; documentation for P:DynaSimControlLibrary.GraphControl.NamedVariable.Values
+  Info: BuildAssembler: Building topic M:DynaSimControlLibrary.IGraphInterface.AddVariable(System.String,System.String)
+  Warn: SharedContentComponent: Missing shared content item. Tag:&#39;include&#39;; Id:&#39;text_upper&#39;.
+  Warn: ResolveReferenceLinksComponent2: Unknown reference link target &#39;T:DynaSimControlLibrary.IGraphInterface&#39;.
+  Info: BuildAssembler: Building topic M:DynaSimControlLibrary.IGraphInterface.AdvanceGraphUnit
+  Warn: SharedContentComponent: Missing shared content item. Tag:&#39;include&#39;; Id:&#39;text_upper&#39;.
+  Warn: ResolveReferenceLinksComponent2: Unknown reference link target &#39;T:DynaSimControlLibrary.IGraphInterface&#39;.
+  Info: BuildAssembler: Building topic M:DynaSimControlLibrary.IGraphInterface.RemoveVariable(System.String)
+  Warn: ShowMissingComponent: Missing &lt;returns&gt; documentation for M:DynaSimControlLibrary.IGraphInterface.RemoveVariable(System.String)
+  Warn: SharedContentComponent: Missing shared content item. Tag:&#39;include&#39;; Id:&#39;text_upper&#39;.
+  Warn: ResolveReferenceLinksComponent2: Unknown reference link target &#39;T:DynaSimControlLibrary.IGraphInterface&#39;.
+  Info: BuildAssembler: Building topic M:DynaSimControlLibrary.IGraphInterface.SetGraphUnitsAcrossXAxis(System.UInt32)
+  Warn: SharedContentComponent: Missing shared content item. Tag:&#39;include&#39;; Id:&#39;text_upper&#39;.
+  Warn: ResolveReferenceLinksComponent2: Unknown reference link target &#39;T:DynaSimControlLibrary.IGraphInterface&#39;.
+  Info: BuildAssembler: Building topic M:DynaSimControlLibrary.IGraphInterface.SetGraphUnitsAcrossYAxis(System.UInt32)
+  Warn: SharedContentComponent: Missing shared content item. Tag:&#39;include&#39;; Id:&#39;text_upper&#39;.
+  Warn: ResolveReferenceLinksComponent2: Unknown reference link target &#39;T:DynaSimControlLibrary.IGraphInterface&#39;.
+  Info: BuildAssembler: Building topic M:DynaSimControlLibrary.IGraphInterface.SetGraphViewTimeUnit(System.UInt32)
+  Warn: SharedContentComponent: Missing shared content item. Tag:&#39;include&#39;; Id:&#39;text_upper&#39;.
+  Warn: ResolveReferenceLinksComponent2: Unknown reference link target &#39;T:DynaSimControlLibrary.IGraphInterface&#39;.
+  Info: BuildAssembler: Building topic M:DynaSimControlLibrary.IGraphInterface.UpdateGraphItem(System.String,System.String)
+  Warn: SharedContentComponent: Missing shared content item. Tag:&#39;include&#39;; Id:&#39;text_upper&#39;.
+  Warn: ResolveReferenceLinksComponent2: Unknown reference link target &#39;T:DynaSimControlLibrary.IGraphInterface&#39;.
+  Info: Processed 145 topics
+    Last step completed in 00:02:27.8895
+</buildStep>
+<buildStep step="CombiningIntermediateTocFiles">
+Combining conceptual and API intermediate TOC files...
+    Last step completed in 00:00:00.0040
+</buildStep>
+<buildStep step="ExtractingHtmlInfo">
+Extracting HTML info for HTML Help 1 and/or website...
+[C:\Windows\Microsoft.NET\Framework\v4.0.30319\MSBuild.exe]
+Sandcastle Help File Builder, version 1.9.5.0
+Copyright c 2006-2012, Eric Woodruff, All Rights Reserved
+E-Mail: Eric@EWoodruff.us
+
+Using LCID &#39;1033&#39;, code page &#39;65001&#39;, encoding charset &#39;UTF-8&#39;.
+
+Processing Help 1 files in C:\Users\Owner\Documents\Visual Studio 2010\Projects\DynaSim\trunk\DynaSimDocumentation\Help\Working\Output\HtmlHelp1
+Processed 145 HTML files
+Sorting keywords and generating See Also indices
+Saving HTML Help 1 keyword index to C:\Users\Owner\Documents\Visual Studio 2010\Projects\DynaSim\trunk\DynaSimDocumentation\Help\Working\DynaSimDocumentation.hhk
+Saving HTML Help 1 table of contents to C:\Users\Owner\Documents\Visual Studio 2010\Projects\DynaSim\trunk\DynaSimDocumentation\Help\Working\DynaSimDocumentation.hhc
+    Last step completed in 00:00:03.4502
+</buildStep>
+<buildStep step="GenerateHelpFormatTableOfContents">
+Generating HTML Help 1 table of contents file...
+    Last step completed in 00:00:00.0000
+</buildStep>
+<buildStep step="GenerateHelpFileIndex">
+Generating HTML Help 1 index file...
+    Last step completed in 00:00:00.0010
+</buildStep>
+<buildStep step="GenerateHelpProject">
+Generating HTML Help 1 project file...
+    Last step completed in 00:00:00.0130
+</buildStep>
+<buildStep step="CompilingHelpFile">
+Compiling HTML Help 1 file...
+[C:\Windows\Microsoft.NET\Framework\v4.0.30319\MSBuild.exe]
+  Microsoft HTML Help Compiler 4.74.8702
+  
+  
+  
+  Compiling c:\Users\Owner\Documents\Visual Studio 2010\Projects\DynaSim\trunk\DynaSimDocumentation\Help\Working\Output\HtmlHelp1\DynaSimDocumentation.chm
+  
+  
+  
+  
+  
+  Compile time: 0 minutes, 3 seconds
+  
+  147	Topics
+  
+  1,662	Local links
+  
+  502	Internet links
+  
+  0	Graphics
+  
+  
+  
+  
+  
+  Created c:\Users\Owner\Documents\Visual Studio 2010\Projects\DynaSim\trunk\DynaSimDocumentation\Help\Working\Output\HtmlHelp1\DynaSimDocumentation.chm, 218,394 bytes
+  
+  Compression decreased file by 1,388,359 bytes.
+  
+    Last step completed in 00:00:05.7723
+</buildStep>
+<buildStep step="CleanIntermediates">
+Removing intermediate files...
+    Last step completed in 00:00:00.3160
+</buildStep>
+<buildStep step="Completed">
+
+Build completed successfully at 12/08/2012 12:21 PM.  Total time: 00:02:51.3788
+
+</buildStep>
+</shfbBuild>

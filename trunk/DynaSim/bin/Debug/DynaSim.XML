@@ -1,0 +1,176 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>DynaSim</name>
+    </assembly>
+    <members>
+        <member name="T:DynaSim.EquationBuilder">
+            <summary>
+            Equation Builder Class, typically takes input from the datagridview and
+            makes it usable.
+            </summary>
+        </member>
+        <member name="M:DynaSim.EquationBuilder.BuildEquationFromDataGridView(System.Windows.Forms.DataGridView,System.String@)">
+            <summary>
+            Builds an equation from the datagridview(s).
+            </summary>
+            <param name="dgv">DataGridView with 3 or 5 columns.</param>
+            <param name="equation">Equation, out</param>
+            <returns>true on success</returns>
+        </member>
+        <member name="M:DynaSim.SimEngine.#ctor">
+            <summary>
+            SimEngine constructor.
+            </summary>
+        </member>
+        <member name="M:DynaSim.SimEngine.StartSim(System.String)">
+            <summary>
+            Initalizes the "equations" into the math parser and begins doing calculations.
+            </summary>
+            <param name="equation"></param>
+        </member>
+        <member name="M:DynaSim.SimEngine.WorkFunction">
+            <summary>
+            Performs work.
+            </summary>
+        </member>
+        <member name="T:DynaSim.Form1">
+            <summary>
+            Primary GUI class.
+            </summary>
+        </member>
+        <member name="F:DynaSim.Form1.AcceptableOperators">
+            <summary>
+            Constant string containing single char acceptable operators.
+            </summary>
+        </member>
+        <member name="F:DynaSim.Form1.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:DynaSim.Form1.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:DynaSim.Form1.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:DynaSim.Form1.eb">
+            <summary>
+            Equation builder instance, "eb"
+            </summary>
+        </member>
+        <member name="M:DynaSim.Form1.#ctor">
+            <summary>
+            GUI class constructor.
+            </summary>
+        </member>
+        <member name="M:DynaSim.Form1.interactionsTabPage_Enter(System.Object,System.EventArgs)">
+            <summary>
+            Extract the current named variables for use in some combo-box interaction options.
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:DynaSim.Form1.tableTabPage_Enter(System.Object,System.EventArgs)">
+            <summary>
+            Swap graph values to table if simulation is running.
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:DynaSim.Form1.tableTabPage_Leave(System.Object,System.EventArgs)">
+            <summary>
+            Return graph values back to graph view upon exit.
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:DynaSim.Form1.btnGraphTabPlay_Click(System.Object,System.EventArgs)">
+            <summary>
+            Attempts to start the simulation using the input data on the GUI.
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:DynaSim.Form1.btnInteractionsPageAddVariableInteraction_Click(System.Object,System.EventArgs)">
+            <summary>
+            Validate and add an interaction to the interaction datagridview.
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:DynaSim.Form1.CheckInteractionOperation(System.Windows.Forms.Control)">
+            <summary>
+            Ensure an operator is present and the value is numeric.
+            </summary>
+            <param name="text"></param>
+        </member>
+        <member name="M:DynaSim.Form1.CheckForNoSelection(System.Windows.Forms.Control)">
+            <summary>
+            Ensure a selection is made, if not set the error provider.
+            </summary>
+            <param name="cbx">a combobox or textbox control</param>
+        </member>
+        <member name="M:DynaSim.Form1.openToolStripMenuItem_Click(System.Object,System.EventArgs)">
+            <summary>
+            Allow user to load a system via menu-strip option
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:DynaSim.Form1.btnSaveAs_Click(System.Object,System.EventArgs)">
+            <summary>
+            Allow user to save a system via menu-strip option. Provides a typical Windows saving interface.
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:DynaSim.Form1.btnSave_Click(System.Object,System.EventArgs)">
+            <summary>
+            Allows user to save via save button, but doesn't open the Save As dialog feature
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:DynaSim.Form1.exitToolStripMenuItem_Click_1(System.Object,System.EventArgs)">
+            <summary>
+            Exits the applicaton and closes both the inFile and outFile objects prior to close
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="T:DynaSim.Constants">
+            <summary>
+            Constants used throughout the program.
+            </summary>
+        </member>
+        <member name="T:DynaSim.Properties.Resources">
+            <summary>
+              A strongly-typed resource class, for looking up localized strings, etc.
+            </summary>
+        </member>
+        <member name="P:DynaSim.Properties.Resources.ResourceManager">
+            <summary>
+              Returns the cached ResourceManager instance used by this class.
+            </summary>
+        </member>
+        <member name="P:DynaSim.Properties.Resources.Culture">
+            <summary>
+              Overrides the current thread's CurrentUICulture property for all
+              resource lookups using this strongly typed resource class.
+            </summary>
+        </member>
+        <member name="M:DynaSim.Program.Main">
+            <summary>
+            The main entry point for the application.
+            </summary>
+        </member>
+    </members>
+</doc>

@@ -1,0 +1,55 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Windows.Forms;
+
+
+namespace DynaSim
+{
+    /// <summary>
+    /// Equation Builder Class, typically takes input from the datagridview and
+    /// makes it usable.
+    /// </summary>
+    public class EquationBuilder
+    {
+
+        /// <summary>
+        /// Builds an equation from the datagridview(s).
+        /// </summary>
+        /// <param name="dgv">DataGridView with 3 or 5 columns.</param>
+        /// <param name="equation">Equation, out</param>
+        /// <returns>true on success</returns>
+        public bool BuildEquationFromDataGridView(DataGridView dgv, ref string equation)
+        {
+            // I added these constants..
+            // Better to use constants than simple numbers in code,
+            // easier to maintain in the future.
+
+            if (dgv == null)
+                throw new ArgumentNullException("dgv It's Karch's fault.", "DataGridView dgv is null.");
+
+            /* HEY KARCH. Start working somewhere in here. */
+
+            //A very nicely non-reusable method.
+            if (dgv.Columns.Count == Constants.VARIABLE_COL_COUNT || dgv.Columns.Count == Constants.INTERACT_COL_COUNT)
+            {
+                for (int i = 0; i < dgv.Rows.Count-1; i++)
+                {
+                    for (int j = 0; j < dgv.Rows[i].Cells.Count; j++)
+                    {
+                        if (j == 0)
+                        {
+                            equation += "\"" + dgv.Rows[i].Cells[j].Value + "\"" + " ";
+                        }
+                        else
+                            equation += dgv.Rows[i].Cells[j].Value + " ";
+                    }
+                    equation += Environment.NewLine;
+                }
+                return true;
+            }
+            return false;
+        }
+    }
+}
